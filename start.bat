@@ -4,42 +4,49 @@ echo ========================================
 echo   基于大模型的自动化取证平台
 echo ========================================
 echo.
-
-:: 检查Python
-where python >nul 2>&1
-if %errorLevel% neq 0 (
-    echo [错误] 未找到Python，请先安装Python 3.8+
-    echo 下载: https://www.python.org/downloads/
-    pause
-    exit /b 1
-)
-
-:: 检查依赖
-echo [1/3] 检查依赖...
-pip show aiohttp >nul 2>&1
-if %errorLevel% neq 0 (
-    echo 正在安装依赖...
-    pip install -r requirements.txt
-)
-echo 依赖检查完成
+echo 请选择启动模式:
 echo.
-
-:: 检查配置
-echo [2/3] 检查配置...
-if not exist "config\llm_config.json" (
-    echo [提示] 未找到配置文件，正在创建默认配置...
-    copy config\llm_config.example.json config\llm_config.json
-    echo 请编辑 config\llm_config.json 设置API密钥
-    echo.
-)
-
-:: 启动服务
-echo [3/3] 启动服务...
+echo [1] Web UI 界面 (推荐)
+echo [2] API 服务
+echo [3] 同时启动 Web UI 和 API
+echo [0] 退出
 echo.
+set /p choice=请输入选项: 
+
+if "%choice%"=="1" goto webui
+if "%choice%"=="2" goto api
+if "%choice%"=="3" goto both
+if "%choice%"=="0" goto end
+echo 无效选项，请重新运行
+pause
+exit /b 1
+
+:webui
+echo.
+echo 启动 Web UI...
 echo 访问地址: http://localhost:7860
-echo 按 Ctrl+C 停止服务
 echo.
+python -m web.app
+goto end
 
-python -m openwebui.pipeline
+:api
+echo.
+echo 启动 API 服务...
+echo API文档: http://localhost:8000/docs
+echo.
+python -m api.main
+goto end
 
+:both
+echo.
+echo 启动 Web UI 和 API 服务...
+echo Web UI: http://localhost:7860
+echo API文档: http://localhost:8000
+echo.
+start "API Service" python -m api.main
+timeout /t 3 >nul
+python -m web.app
+goto end
+
+:end
 pause

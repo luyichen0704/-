@@ -16,6 +16,7 @@ chardet>=5.0.0
 gradio>=4.0.0
 fastapi>=0.100.0
 uvicorn>=0.23.0
+python-multipart>=0.0.6
 
 # 取证工具绑定
 python-magic>=0.4.27
@@ -33,3 +34,7 @@ cryptography>=41.0.0
 pyyaml>=6.0
 python-dotenv>=1.0.0
 loguru>=0.7.0
+
+# API相关
+pydantic>=2.0.0
+httpx>=0.24.0
