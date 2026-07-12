@@ -234,7 +234,25 @@ class ForensicWebUI:
                 with gr.TabItem("⚙️ 设置", id="settings"):
                     with gr.Row():
                         with gr.Column(scale=1):
-                            gr.Markdown("### 🔑 API密钥配置")
+                            gr.Markdown("### 🔑 API配置")
+                            
+                            # API预设选择
+                            api_preset = gr.Dropdown(
+                                label="API预设 (快速选择)",
+                                choices=[
+                                    "自定义",
+                                    "OpenAI 官方",
+                                    "Claude 官方",
+                                    "Ollama 本地",
+                                    "DeepSeek",
+                                    "月之暗面 Kimi",
+                                    "智谱 GLM",
+                                    "百度文心",
+                                    "第三方中转站"
+                                ],
+                                value="自定义",
+                                info="选择预设可自动填充配置"
+                            )
                             
                             llm_provider = gr.Dropdown(
                                 label="LLM提供者",
@@ -250,15 +268,26 @@ class ForensicWebUI:
                             )
                             
                             base_url = gr.Textbox(
-                                label="API Base URL (可选)",
+                                label="API Base URL",
                                 placeholder="https://api.openai.com/v1",
-                                value=self.config.get("base_url", "")
+                                value=self.config.get("base_url", ""),
+                                info="支持第三方中转站，修改此地址即可"
                             )
                             
                             model_name = gr.Textbox(
                                 label="模型名称",
                                 placeholder="gpt-4",
                                 value=self.config.get("model", "gpt-4")
+                            )
+                            
+                            # 预设配置说明
+                            preset_info = gr.Markdown(
+                                """
+**常用第三方中转站配置:**
+- 只需修改 `API Base URL` 为中转站地址
+- API Key 使用中转站提供的密钥
+- 模型名称按中转站要求填写
+                                """
                             )
                             
                             save_config_btn = gr.Button("💾 保存配置", variant="primary")
@@ -356,6 +385,63 @@ class ForensicWebUI:
                 return "工具未找到"
             
             tool_select.change(show_tool_info, outputs=tool_info)
+            
+            # API预设选择处理
+            def apply_preset(preset):
+                """应用API预设"""
+                presets = {
+                    "OpenAI 官方": {
+                        "provider": "openai",
+                        "base_url": "https://api.openai.com/v1",
+                        "model": "gpt-4"
+                    },
+                    "Claude 官方": {
+                        "provider": "claude",
+                        "base_url": "",
+                        "model": "claude-3-sonnet-20240229"
+                    },
+                    "Ollama 本地": {
+                        "provider": "ollama",
+                        "base_url": "http://localhost:11434",
+                        "model": "llama2"
+                    },
+                    "DeepSeek": {
+                        "provider": "openai",
+                        "base_url": "https://api.deepseek.com/v1",
+                        "model": "deepseek-chat"
+                    },
+                    "月之暗面 Kimi": {
+                        "provider": "openai",
+                        "base_url": "https://api.moonshot.cn/v1",
+                        "model": "moonshot-v1-8k"
+                    },
+                    "智谱 GLM": {
+                        "provider": "openai",
+                        "base_url": "https://open.bigmodel.cn/api/paas/v4",
+                        "model": "glm-4"
+                    },
+                    "百度文心": {
+                        "provider": "openai",
+                        "base_url": "https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop",
+                        "model": "ernie-4.0"
+                    },
+                    "第三方中转站": {
+                        "provider": "openai",
+                        "base_url": "https://your-proxy.com/v1",
+                        "model": "gpt-4"
+                    }
+                }
+                
+                if preset in presets:
+                    p = presets[preset]
+                    return p["provider"], p["base_url"], p["model"]
+                return "openai", "", "gpt-4"
+            
+            api_preset.change(
+                apply_preset,
+                inputs=[api_preset],
+                outputs=[llm_provider, base_url, model_name]
+            )
             
             # 配置保存
             def save_config(provider, api_key, base_url, model):

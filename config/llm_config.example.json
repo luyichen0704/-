@@ -1,30 +1,78 @@
 {
-  "providers": {
-    "openai": {
-      "api_key": "your-openai-api-key",
-      "model": "gpt-4",
-      "base_url": "https://api.openai.com/v1"
-    },
-    "claude": {
-      "api_key": "your-claude-api-key",
-      "model": "claude-3-sonnet-20240229"
-    },
-    "ollama": {
-      "model": "llama2",
-      "base_url": "http://localhost:11434"
-    }
+  "provider": "openai",
+  "api_key": "your-api-key-here",
+  "model": "gpt-4",
+  "base_url": "https://api.openai.com/v1",
+  "temperature": 0.7,
+  "max_tokens": 4096,
+
+  "_comment_1": "========== 第三方中转站配置示例 ==========",
+  "_comment_2": "只需修改 base_url 为中转站地址即可",
+
+  "_example_openai": {
+    "provider": "openai",
+    "api_key": "sk-xxx",
+    "model": "gpt-4",
+    "base_url": "https://api.openai.com/v1"
   },
-  "default_provider": "openai",
-  "max_retries": 3,
-  "timeout": 30,
-  "embedding_model": "all-MiniLM-L6-v2",
-  "knowledge_base": {
-    "skills_dir": "skills/",
-    "vector_db": "chroma",
-    "collection_name": "forensic_skills"
+
+  "_example_claude": {
+    "provider": "claude",
+    "api_key": "sk-ant-xxx",
+    "model": "claude-3-sonnet-20240229"
   },
-  "logging": {
-    "level": "INFO",
-    "file": "logs/app.log"
+
+  "_example_ollama_local": {
+    "provider": "ollama",
+    "model": "llama2",
+    "base_url": "http://localhost:11434"
+  },
+
+  "_example_third_party_1": {
+    "_说明": "第三方OpenAI中转站示例",
+    "provider": "openai",
+    "api_key": "your-key",
+    "model": "gpt-4",
+    "base_url": "https://api.example.com/v1"
+  },
+
+  "_example_third_party_2": {
+    "_说明": "国内中转站示例",
+    "provider": "openai",
+    "api_key": "your-key",
+    "model": "gpt-4",
+    "base_url": "https://api.openai-proxy.com/v1"
+  },
+
+  "_example_deepseek": {
+    "_说明": "DeepSeek API",
+    "provider": "openai",
+    "api_key": "your-deepseek-key",
+    "model": "deepseek-chat",
+    "base_url": "https://api.deepseek.com/v1"
+  },
+
+  "_example_moonshot": {
+    "_说明": "月之暗面 Kimi",
+    "provider": "openai",
+    "api_key": "your-moonshot-key",
+    "model": "moonshot-v1-8k",
+    "base_url": "https://api.moonshot.cn/v1"
+  },
+
+  "_example_zhipu": {
+    "_说明": "智谱 GLM",
+    "provider": "openai",
+    "api_key": "your-zhipu-key",
+    "model": "glm-4",
+    "base_url": "https://open.bigmodel.cn/api/paas/v4"
+  },
+
+  "_example_baidu": {
+    "_说明": "百度文心一言",
+    "provider": "openai",
+    "api_key": "your-baidu-key",
+    "model": "ernie-4.0",
+    "base_url": "https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop"
   }
 }
