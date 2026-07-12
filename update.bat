@@ -1,24 +1,14 @@
 @echo off
 chcp 65001 >nul 2>nul
-title Forensic AI Platform - Updater
+title Updater
 cd /d "%~dp0"
-
-echo ========================================
-echo   Forensic AI Platform - Updater
-echo ========================================
-echo.
 
 python --version >nul 2>&1
 if %errorLevel% neq 0 (
-    echo [ERROR] Python not found!
+    echo Python not found!
     pause
     exit /b 1
 )
 
 python updater_gui.py
-
-if %errorLevel% neq 0 (
-    echo.
-    echo [ERROR] Updater exited with error
-    pause
-)
+pause
