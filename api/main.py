@@ -464,6 +464,94 @@ def create_api(agent=None) -> FastAPI:
         
         return "\n".join(report)
     
+    # ==================== 案例库接口 ====================
+    
+    @app.get("/api/cases", tags=["案例库"])
+    async def list_cases(
+        category: str = None,
+        competition: str = None,
+        year: int = None,
+        keyword: str = None,
+        limit: int = 10
+    ):
+        """查询案例库"""
+        from agent.case_library import case_library, CaseQuery
+        
+        query = CaseQuery(
+            keyword=keyword,
+            category=category,
+            competition=competition,
+            year=year,
+            limit=limit
+        )
+        
+        cases = case_library.search(query)
+        stats = case_library.get_stats()
+        
+        return {
+            "total": stats.get("total_cases", 0),
+            "results": len(cases),
+            "cases": cases
+        }
+    
+    @app.get("/api/cases/{case_id}", tags=["案例库"])
+    async def get_case(case_id: str):
+        """获取指定案例"""
+        from agent.case_library import case_library
+        
+        case = case_library.get_by_id(case_id)
+        if not case:
+            raise HTTPException(status_code=404, detail="案例未找到")
+        
+        return case
+    
+    @app.get("/api/cases/categories", tags=["案例库"])
+    async def get_case_categories():
+        """获取案例类别"""
+        from agent.case_library import case_library
+        
+        categories = case_library.get_categories()
+        stats = case_library.get_stats()
+        
+        return {
+            "categories": categories,
+            "stats": stats.get("categories", {})
+        }
+    
+    @app.get("/api/cases/competitions", tags=["案例库"])
+    async def get_case_competitions():
+        """获取比赛列表"""
+        from agent.case_library import case_library
+        
+        competitions = case_library.get_competitions()
+        stats = case_library.get_stats()
+        
+        return {
+            "competitions": competitions,
+            "stats": stats.get("competitions", {})
+        }
+    
+    @app.get("/api/cases/stats", tags=["案例库"])
+    async def get_case_stats():
+        """获取案例库统计"""
+        from agent.case_library import case_library
+        
+        return case_library.get_stats()
+    
+    @app.post("/api/cases/export", tags=["案例库"])
+    async def export_cases(format: str = "jsonl"):
+        """导出训练数据"""
+        from agent.case_library import case_library
+        
+        output_path = f"cases/training_data.{format}"
+        count = case_library.export_for_training(output_path, format)
+        
+        return {
+            "message": f"导出 {count} 条训练数据",
+            "path": output_path,
+            "format": format
+        }
+    
     return app
 
 # ==================== 启动入口 ====================

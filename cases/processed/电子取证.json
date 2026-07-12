@@ -1,0 +1,277 @@
+[
+  {
+    "case_id": "FIC_2024_dir_2024FIC决赛",
+    "title": "2024FIC决赛",
+    "category": "电子取证",
+    "competition": "FIC",
+    "year": 2024,
+    "difficulty": "medium",
+    "tools_used": [],
+    "techniques": [],
+    "description": "包含 239 张截图的取证案例",
+    "solution_steps": [],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "FIC"
+    ],
+    "content_hash": "9b9cfec4370cd0ad",
+    "source_url": ""
+  },
+  {
+    "case_id": "数证杯_2024_dir_2024数证杯初赛",
+    "title": "2024数证杯初赛",
+    "category": "电子取证",
+    "competition": "数证杯",
+    "year": 2024,
+    "difficulty": "medium",
+    "tools_used": [],
+    "techniques": [],
+    "description": "包含 242 张截图的取证案例",
+    "solution_steps": [],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "电子取证",
+      "数证杯"
+    ],
+    "content_hash": "31a1052df918a97a",
+    "source_url": ""
+  },
+  {
+    "case_id": "美亚杯_2024_dir_2024美亚杯个人赛",
+    "title": "2024美亚杯个人赛",
+    "category": "电子取证",
+    "competition": "美亚杯",
+    "year": 2024,
+    "difficulty": "medium",
+    "tools_used": [],
+    "techniques": [],
+    "description": "包含 160 张截图的取证案例",
+    "solution_steps": [],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "电子取证",
+      "美亚杯"
+    ],
+    "content_hash": "efb6724296bf8f05",
+    "source_url": ""
+  },
+  {
+    "case_id": "SPC_2025_dir_2025SPC电子取证竞赛决赛",
+    "title": "2025SPC电子取证竞赛决赛",
+    "category": "电子取证",
+    "competition": "SPC",
+    "year": 2025,
+    "difficulty": "medium",
+    "tools_used": [],
+    "techniques": [],
+    "description": "包含 140 张截图的取证案例",
+    "solution_steps": [],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "电子取证",
+      "SPC"
+    ],
+    "content_hash": "2265e31ea9ee0e5c",
+    "source_url": ""
+  },
+  {
+    "case_id": "SPC_2025_dir_2025SPC电子取证竞赛初赛",
+    "title": "2025SPC电子取证竞赛初赛",
+    "category": "电子取证",
+    "competition": "SPC",
+    "year": 2025,
+    "difficulty": "medium",
+    "tools_used": [],
+    "techniques": [],
+    "description": "包含 96 张截图的取证案例",
+    "solution_steps": [],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "电子取证",
+      "SPC"
+    ],
+    "content_hash": "41675a5bfce29c55",
+    "source_url": ""
+  },
+  {
+    "case_id": "SPC_2025_dir_2025SPC选拔赛",
+    "title": "2025SPC选拔赛",
+    "category": "电子取证",
+    "competition": "SPC",
+    "year": 2025,
+    "difficulty": "medium",
+    "tools_used": [],
+    "techniques": [],
+    "description": "包含 131 张截图的取证案例",
+    "solution_steps": [],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "SPC"
+    ],
+    "content_hash": "8c32901ed813d148",
+    "source_url": ""
+  },
+  {
+    "case_id": "平航杯_2025_dir_2025平航杯初赛",
+    "title": "2025平航杯初赛",
+    "category": "电子取证",
+    "competition": "平航杯",
+    "year": 2025,
+    "difficulty": "medium",
+    "tools_used": [],
+    "techniques": [],
+    "description": "包含 189 张截图的取证案例",
+    "solution_steps": [],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "电子取证",
+      "平航杯"
+    ],
+    "content_hash": "a18bc0476f149863",
+    "source_url": ""
+  },
+  {
+    "case_id": "数证杯_2025_dir_2025数证杯决赛-团体赛",
+    "title": "2025数证杯决赛-团体赛",
+    "category": "电子取证",
+    "competition": "数证杯",
+    "year": 2025,
+    "difficulty": "medium",
+    "tools_used": [],
+    "techniques": [],
+    "description": "包含 91 张截图的取证案例",
+    "solution_steps": [],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "电子取证",
+      "数证杯"
+    ],
+    "content_hash": "535275f43c0b8430",
+    "source_url": ""
+  },
+  {
+    "case_id": "数证杯_2025_dir_2025数证杯初赛",
+    "title": "2025数证杯初赛",
+    "category": "电子取证",
+    "competition": "数证杯",
+    "year": 2025,
+    "difficulty": "medium",
+    "tools_used": [],
+    "techniques": [],
+    "description": "包含 300 张截图的取证案例",
+    "solution_steps": [],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "电子取证",
+      "数证杯"
+    ],
+    "content_hash": "bc79aead0ab0b6f5",
+    "source_url": ""
+  },
+  {
+    "case_id": "盘古石_2025_dir_2025盘古石晋级赛",
+    "title": "2025盘古石晋级赛",
+    "category": "电子取证",
+    "competition": "盘古石",
+    "year": 2025,
+    "difficulty": "medium",
+    "tools_used": [],
+    "techniques": [],
+    "description": "包含 152 张截图的取证案例",
+    "solution_steps": [],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "电子取证",
+      "盘古石"
+    ],
+    "content_hash": "115596f40fad8b2e",
+    "source_url": ""
+  },
+  {
+    "case_id": "美亚杯_2025_dir_2025美亚杯-资格赛",
+    "title": "2025美亚杯-资格赛",
+    "category": "电子取证",
+    "competition": "美亚杯",
+    "year": 2025,
+    "difficulty": "medium",
+    "tools_used": [],
+    "techniques": [],
+    "description": "包含 192 张截图的取证案例",
+    "solution_steps": [],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "电子取证",
+      "美亚杯"
+    ],
+    "content_hash": "b018e25ded20eac0",
+    "source_url": ""
+  },
+  {
+    "case_id": "警铮杯_2025_dir_2025警铮杯",
+    "title": "2025警铮杯",
+    "category": "电子取证",
+    "competition": "警铮杯",
+    "year": 2025,
+    "difficulty": "medium",
+    "tools_used": [],
+    "techniques": [],
+    "description": "包含 92 张截图的取证案例",
+    "solution_steps": [],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "警铮杯"
+    ],
+    "content_hash": "51729db6024fb35a",
+    "source_url": ""
+  },
+  {
+    "case_id": "FIC_2026_dir_2026FIC初赛",
+    "title": "2026FIC初赛",
+    "category": "电子取证",
+    "competition": "FIC",
+    "year": 2026,
+    "difficulty": "medium",
+    "tools_used": [],
+    "techniques": [],
+    "description": "包含 193 张截图的取证案例",
+    "solution_steps": [],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "FIC"
+    ],
+    "content_hash": "88bf3adbce888edc",
+    "source_url": ""
+  },
+  {
+    "case_id": "獬豸杯_2026_dir_2026獬豸杯",
+    "title": "2026獬豸杯",
+    "category": "电子取证",
+    "competition": "獬豸杯",
+    "year": 2026,
+    "difficulty": "medium",
+    "tools_used": [],
+    "techniques": [],
+    "description": "包含 202 张截图的取证案例",
+    "solution_steps": [],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "獬豸杯"
+    ],
+    "content_hash": "8ab5efc786eb139b",
+    "source_url": ""
+  }
+]

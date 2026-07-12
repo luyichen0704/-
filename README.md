@@ -36,6 +36,12 @@
 - **钩子系统**: pre_analysis/post_analysis钩子
 - **示例插件**: YARA扫描器、报告生成器
 
+### 📚 案例库
+- **100+取证案例**: 涵盖美亚杯、FIC、数证杯、盘古石等主流比赛
+- **智能检索**: 按类别、比赛、年份、工具等多维度检索
+- **训练数据导出**: 支持导出为JSONL格式用于模型训练
+- **持续更新**: 支持从GitHub等来源持续收集新案例
+
 ---
 
 ## 项目结构
@@ -70,9 +76,15 @@ forensic-ai-platform/
 │   ├── stego.md
 │   ├── reverse-engineering.md
 │   └── ...
+├── cases/                          # 案例库
+│   ├── raw/                       # 原始案例数据
+│   ├── processed/                 # 处理后的案例
+│   ├── index/                     # 案例索引
+│   └── github/                    # GitHub收集的案例
 ├── scripts/                       # 工具脚本
 │   ├── smart_hunter.py           # 智能搜索引擎
 │   ├── evidence_linker.py        # 证据链关联
+│   ├── extract_cases.py          # 案例提取器
 │   └── ...
 ├── config/                        # 配置文件
 │   ├── llm_config.json           # LLM配置

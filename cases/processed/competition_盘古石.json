@@ -1,0 +1,118 @@
+[
+  {
+    "case_id": "盘古石_2026_542cc05b193550c2",
+    "title": "2026獬豸杯wp（全）",
+    "category": "磁盘取证",
+    "competition": "盘古石",
+    "year": 2026,
+    "difficulty": "hard",
+    "tools_used": [
+      "火眼",
+      "strings",
+      "hashcat",
+      "sleuthkit",
+      "steghide"
+    ],
+    "techniques": [
+      "文件恢复",
+      "流量分析",
+      "内存分析",
+      "密码破解",
+      "隐写提取"
+    ],
+    "description": "2026獬豸杯wp（全） - 玫幽倩的小博客 var Fluid = window.Fluid || {}; Fluid.ctx = Object.assign({}, Fluid.ctx) var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h",
+    "solution_steps": [
+      "2026獬豸杯wp（全） - 玫幽倩的小博客\n\n  \n\n\n\n  \n\n  \n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n    \n  \n\n\n\n  \n\n\n\n\n\n\n\n\n  \n    var Fluid = window.Fluid || {};\n    Fluid.ctx = Object.assign({}, Fluid.ctx)\n    var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4,h5,h6\",\"placement\":\"left\",\"visible\":\"hover\",\"icon\":\"\"},\"progressbar\":{\"enable\":true,\"height_px\":3,\"color\":\"#29d\",\"options\":{\"showSpinner\":false,\"trickleSpeed\":100}},\"code_language\":{\"enable\":true,\"default\":\"TEXT\"},\"copy_btn\":true,\"image_caption\":{\"enable\":true},\"image_zoom\":{\"enable\":true,\"img_url_replace\":[\"\",\"\"]},\"toc\":{\"enable\":true,\"placement\":\"right\",\"headingSelector\":\"h1,h2,h3,h4,h5,h6\",\"collapseDepth\":0},\"lazyload\":{\"enable\":true,\"loading_img\":\"/img/loading.gif\",\"onlypost\":false,\"offset_factor\":2},\"web_analytics\":{\"enable\":false,\"follow_dnt\":true,\"baidu\":null,\"google\":{\"measurement_id\":null},\"tencent\":{\"sid\":null,\"cid\":null},\"leancloud\":{\"app_id\":null,\"app_key\":null,\"server_url\":null,\"path\":\"window.location.pathname\",\"ignore_local\":false},\"umami\":{\"src\":null,\"website_id\":null,\"domains\":null,\"start_time\":\"2024-01-01T00:00:00.000Z\",\"token\":null,\"api_server\":null}},\"search_path\":\"/local-search.xml\",\"include_content_in_search\":true};\n\n    if (CONFIG.web_analytics.follow_dnt) {\n      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;\n      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));\n    }\n  \n  \n  \n  \n\n\n  \n\n\n\n\n  \n\n  \n    \n\n\n  \n  \n    \n      玫幽倩\n    \n\n    \n      \n    \n\n    \n    \n      \n        \n          \n          \n          \n          \n            \n              \n                \n                首页",
+      "对Beacon进行Base64解码；",
+      "使用密钥 EDU 进行XOR处理；"
+    ],
+    "key_findings": [
+      "serialno",
+      "adb\\lspd\\log.old\\kmsg.logadb\\ksu\\log\\dmesg.log",
+      "ro.product.marketname",
+      "ro.product.model",
+      "select rc._id, rc.deleted, rc.display_name, m.mimetype, d.data1from raw_contacts rcleft join data d on d.raw_contact_id=rc._idleft join mimetypes m on m._id=d.mimetype_idwhere rc.deleted=1;"
+    ],
+    "flags": [
+      "flag{Welcome_to_the_3rd_JuHeXieZhi_Cup}",
+      "FLAG{legacy_cleartext}",
+      "FLAG{123_abc_def}",
+      "flag{m3m0ry_f0r3ns1cs_rc4_k3y_hunt_2026}"
+    ],
+    "tags": [
+      "磁盘取证",
+      "火眼",
+      "strings",
+      "hashcat",
+      "CTF",
+      "Writeup"
+    ],
+    "content_hash": "542cc05b193550c2",
+    "source_url": "https://mei-you-qian.github.io/2026/06/18/2026獬豸杯/index"
+  },
+  {
+    "case_id": "盘古石_2025_088c65ad1816936b",
+    "title": "2025XYCTF",
+    "category": "磁盘取证",
+    "competition": "盘古石",
+    "year": 2025,
+    "difficulty": "hard",
+    "tools_used": [
+      "binwalk",
+      "foremost",
+      "wireshark",
+      "stegsolve"
+    ],
+    "techniques": [],
+    "description": "2025XYCTF - 玫幽倩的小博客 var Fluid = window.Fluid || {}; Fluid.ctx = Object.assign({}, Fluid.ctx) var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h",
+    "solution_steps": [
+      "2025XYCTF - 玫幽倩的小博客\n\n  \n\n\n\n  \n\n  \n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n    \n  \n\n\n\n  \n\n\n\n\n\n\n\n\n  \n    var Fluid = window.Fluid || {};\n    Fluid.ctx = Object.assign({}, Fluid.ctx)\n    var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4,h5,h6\",\"placement\":\"left\",\"visible\":\"hover\",\"icon\":\"\"},\"progressbar\":{\"enable\":true,\"height_px\":3,\"color\":\"#29d\",\"options\":{\"showSpinner\":false,\"trickleSpeed\":100}},\"code_language\":{\"enable\":true,\"default\":\"TEXT\"},\"copy_btn\":true,\"image_caption\":{\"enable\":true},\"image_zoom\":{\"enable\":true,\"img_url_replace\":[\"\",\"\"]},\"toc\":{\"enable\":true,\"placement\":\"right\",\"headingSelector\":\"h1,h2,h3,h4,h5,h6\",\"collapseDepth\":0},\"lazyload\":{\"enable\":true,\"loading_img\":\"/img/loading.gif\",\"onlypost\":false,\"offset_factor\":2},\"web_analytics\":{\"enable\":false,\"follow_dnt\":true,\"baidu\":null,\"google\":{\"measurement_id\":null},\"tencent\":{\"sid\":null,\"cid\":null},\"leancloud\":{\"app_id\":null,\"app_key\":null,\"server_url\":null,\"path\":\"window.location.pathname\",\"ignore_local\":false},\"umami\":{\"src\":null,\"website_id\":null,\"domains\":null,\"start_time\":\"2024-01-01T00:00:00.000Z\",\"token\":null,\"api_server\":null}},\"search_path\":\"/local-search.xml\",\"include_content_in_search\":true};\n\n    if (CONFIG.web_analytics.follow_dnt) {\n      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;\n      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));\n    }\n  \n  \n  \n  \n\n\n  \n\n\n\n\n  \n\n  \n    \n\n\n  \n  \n    \n      玫幽倩\n    \n\n    \n      \n    \n\n    \n    \n      \n        \n          \n          \n          \n          \n            \n              \n                \n                首页",
+      "&lt;font style=&quot;color:rgb(51, 51, 51);background-color:rgb(250, 252, 253);&quot;&gt;lambda&lt;/font&gt;是 Python 的关键字，用于定义 lambda 函数。",
+      "&lt;font style=&quot;color:rgb(51, 51, 51);background-color:rgb(250, 252, 253);&quot;&gt;arguments&lt;/font&gt; 是参数列表，可以包含零个或多个参数，但必须在冒号(&lt;font style=&quot;color:rgb(51, 51, 51);background-color:rgb(250, 252, 253);&quot;&gt;:&lt;/font&gt;)前指定。"
+    ],
+    "key_findings": [
+      "&lt;font style=&quot;color:rgb(51, 51, 51);background-color:rgb(250, 252, 253);&quot;&gt;lambda&lt;/font&gt;",
+      "&lt;font style=&quot;color:rgb(51, 51, 51);background-color:rgb(250, 252, 253);&quot;&gt;arguments&lt;/font&gt;",
+      "&lt;font style=&quot;color:rgb(51, 51, 51);background-color:rgb(250, 252, 253);&quot;&gt;:&lt;/font&gt;",
+      "&lt;font style=&quot;color:rgb(51, 51, 51);background-color:rgb(250, 252, 253);&quot;&gt;expression&lt;/font&gt;"
+    ],
+    "flags": [
+      "flag{W3lC0me_t0_XYCTF_2025_Enj07_1t!}",
+      "flag{1t_I3_t3E_s@Me_ChAl1eNge_aT_a1L_P1e@se_fOrg1ve_Me}",
+      "CTF{easy_yin_xie_dfbfuj877}",
+      "CTF{四川内江市资中县⽔南镇春岚北路城市中⼼内}",
+      "flag{l_re@IIy_w@nn@_2_Ie@rn_AE}",
+      "flag{WatAshl_W@_anAta_G@_t0kubetsu_Suki!!!}"
+    ],
+    "tags": [
+      "磁盘取证",
+      "wireshark",
+      "binwalk",
+      "foremost",
+      "CTF",
+      "Writeup"
+    ],
+    "content_hash": "088c65ad1816936b",
+    "source_url": "https://mei-you-qian.github.io/2025/10/28/XYCTF/index"
+  },
+  {
+    "case_id": "盘古石_2025_dir_2025盘古石晋级赛",
+    "title": "2025盘古石晋级赛",
+    "category": "电子取证",
+    "competition": "盘古石",
+    "year": 2025,
+    "difficulty": "medium",
+    "tools_used": [],
+    "techniques": [],
+    "description": "包含 152 张截图的取证案例",
+    "solution_steps": [],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "电子取证",
+      "盘古石"
+    ],
+    "content_hash": "115596f40fad8b2e",
+    "source_url": ""
+  }
+]

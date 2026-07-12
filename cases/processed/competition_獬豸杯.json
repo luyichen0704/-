@@ -1,0 +1,98 @@
+[
+  {
+    "case_id": "獬豸杯_2026_a225be8231f69735",
+    "title": "归档",
+    "category": "网络取证",
+    "competition": "獬豸杯",
+    "year": 2026,
+    "difficulty": "hard",
+    "tools_used": [],
+    "techniques": [],
+    "description": "归档 - 玫幽倩的小博客 var Fluid = window.Fluid || {}; Fluid.ctx = Object.assign({}, Fluid.ctx) var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4,h5,h6",
+    "solution_steps": [
+      "归档 - 玫幽倩的小博客\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n    \n  \n\n\n\n  \n\n\n\n\n\n\n\n\n  \n    var Fluid = window.Fluid || {};\n    Fluid.ctx = Object.assign({}, Fluid.ctx)\n    var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4,h5,h6\",\"placement\":\"left\",\"visible\":\"hover\",\"icon\":\"\"},\"progressbar\":{\"enable\":true,\"height_px\":3,\"color\":\"#29d\",\"options\":{\"showSpinner\":false,\"trickleSpeed\":100}},\"code_language\":{\"enable\":true,\"default\":\"TEXT\"},\"copy_btn\":true,\"image_caption\":{\"enable\":true},\"image_zoom\":{\"enable\":true,\"img_url_replace\":[\"\",\"\"]},\"toc\":{\"enable\":true,\"placement\":\"right\",\"headingSelector\":\"h1,h2,h3,h4,h5,h6\",\"collapseDepth\":0},\"lazyload\":{\"enable\":true,\"loading_img\":\"/img/loading.gif\",\"onlypost\":false,\"offset_factor\":2},\"web_analytics\":{\"enable\":false,\"follow_dnt\":true,\"baidu\":null,\"google\":{\"measurement_id\":null},\"tencent\":{\"sid\":null,\"cid\":null},\"leancloud\":{\"app_id\":null,\"app_key\":null,\"server_url\":null,\"path\":\"window.location.pathname\",\"ignore_local\":false},\"umami\":{\"src\":null,\"website_id\":null,\"domains\":null,\"start_time\":\"2024-01-01T00:00:00.000Z\",\"token\":null,\"api_server\":null}},\"search_path\":\"/local-search.xml\",\"include_content_in_search\":true};\n\n    if (CONFIG.web_analytics.follow_dnt) {\n      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;\n      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));\n    }\n  \n  \n  \n  \n\n\n  \n\n\n\n\n  \n\n  \n    \n\n\n  \n  \n    \n      玫幽倩\n    \n\n    \n      \n    \n\n    \n    \n      \n        \n          \n          \n          \n          \n            \n              \n                \n                首页"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "网络取证",
+      "Writeup",
+      "CTF"
+    ],
+    "content_hash": "a225be8231f69735",
+    "source_url": "https://mei-you-qian.github.io/archives/2026/06/index"
+  },
+  {
+    "case_id": "獬豸杯_2066_d0c1d231979f8825",
+    "title": "关于",
+    "category": "网络取证",
+    "competition": "獬豸杯",
+    "year": 2066,
+    "difficulty": "hard",
+    "tools_used": [],
+    "techniques": [],
+    "description": "关于 - 玫幽倩的小博客 var Fluid = window.Fluid || {}; Fluid.ctx = Object.assign({}, Fluid.ctx) var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4,h5,h6",
+    "solution_steps": [
+      "关于 - 玫幽倩的小博客\n\n  \n\n\n\n  \n\n  \n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n    \n  \n\n\n\n  \n\n\n\n\n\n\n\n\n  \n    var Fluid = window.Fluid || {};\n    Fluid.ctx = Object.assign({}, Fluid.ctx)\n    var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4,h5,h6\",\"placement\":\"left\",\"visible\":\"hover\",\"icon\":\"\"},\"progressbar\":{\"enable\":true,\"height_px\":3,\"color\":\"#29d\",\"options\":{\"showSpinner\":false,\"trickleSpeed\":100}},\"code_language\":{\"enable\":true,\"default\":\"TEXT\"},\"copy_btn\":true,\"image_caption\":{\"enable\":true},\"image_zoom\":{\"enable\":true,\"img_url_replace\":[\"\",\"\"]},\"toc\":{\"enable\":true,\"placement\":\"right\",\"headingSelector\":\"h1,h2,h3,h4,h5,h6\",\"collapseDepth\":0},\"lazyload\":{\"enable\":true,\"loading_img\":\"/img/loading.gif\",\"onlypost\":false,\"offset_factor\":2},\"web_analytics\":{\"enable\":false,\"follow_dnt\":true,\"baidu\":null,\"google\":{\"measurement_id\":null},\"tencent\":{\"sid\":null,\"cid\":null},\"leancloud\":{\"app_id\":null,\"app_key\":null,\"server_url\":null,\"path\":\"window.location.pathname\",\"ignore_local\":false},\"umami\":{\"src\":null,\"website_id\":null,\"domains\":null,\"start_time\":\"2024-01-01T00:00:00.000Z\",\"token\":null,\"api_server\":null}},\"search_path\":\"/local-search.xml\",\"include_content_in_search\":true};\n\n    if (CONFIG.web_analytics.follow_dnt) {\n      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;\n      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));\n    }\n  \n  \n  \n  \n\n\n  \n\n\n\n\n  \n\n  \n    \n\n\n  \n  \n    \n      玫幽倩\n    \n\n    \n      \n    \n\n    \n    \n      \n        \n          \n          \n          \n          \n            \n              \n                \n                首页"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "网络取证",
+      "Writeup",
+      "CTF"
+    ],
+    "content_hash": "d0c1d231979f8825",
+    "source_url": "https://mei-you-qian.github.io/2066/06/17/关于/index"
+  },
+  {
+    "case_id": "獬豸杯_2026_8e32f58d1d348736",
+    "title": "矛计划-PHAR靶机设计思路",
+    "category": "网络取证",
+    "competition": "獬豸杯",
+    "year": 2026,
+    "difficulty": "hard",
+    "tools_used": [],
+    "techniques": [
+      "文件恢复"
+    ],
+    "description": "矛计划-PHAR靶机设计思路 - 玫幽倩的小博客 var Fluid = window.Fluid || {}; Fluid.ctx = Object.assign({}, Fluid.ctx) var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2",
+    "solution_steps": [
+      "矛计划-PHAR靶机设计思路 - 玫幽倩的小博客\n\n  \n\n\n\n  \n\n  \n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n    \n  \n\n\n\n  \n\n\n\n\n\n\n\n\n  \n    var Fluid = window.Fluid || {};\n    Fluid.ctx = Object.assign({}, Fluid.ctx)\n    var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4,h5,h6\",\"placement\":\"left\",\"visible\":\"hover\",\"icon\":\"\"},\"progressbar\":{\"enable\":true,\"height_px\":3,\"color\":\"#29d\",\"options\":{\"showSpinner\":false,\"trickleSpeed\":100}},\"code_language\":{\"enable\":true,\"default\":\"TEXT\"},\"copy_btn\":true,\"image_caption\":{\"enable\":true},\"image_zoom\":{\"enable\":true,\"img_url_replace\":[\"\",\"\"]},\"toc\":{\"enable\":true,\"placement\":\"right\",\"headingSelector\":\"h1,h2,h3,h4,h5,h6\",\"collapseDepth\":0},\"lazyload\":{\"enable\":true,\"loading_img\":\"/img/loading.gif\",\"onlypost\":false,\"offset_factor\":2},\"web_analytics\":{\"enable\":false,\"follow_dnt\":true,\"baidu\":null,\"google\":{\"measurement_id\":null},\"tencent\":{\"sid\":null,\"cid\":null},\"leancloud\":{\"app_id\":null,\"app_key\":null,\"server_url\":null,\"path\":\"window.location.pathname\",\"ignore_local\":false},\"umami\":{\"src\":null,\"website_id\":null,\"domains\":null,\"start_time\":\"2024-01-01T00:00:00.000Z\",\"token\":null,\"api_server\":null}},\"search_path\":\"/local-search.xml\",\"include_content_in_search\":true};\n\n    if (CONFIG.web_analytics.follow_dnt) {\n      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;\n      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));\n    }\n  \n  \n  \n  \n\n\n  \n\n\n\n\n  \n\n  \n    \n\n\n  \n  \n    \n      玫幽倩\n    \n\n    \n      \n    \n\n    \n    \n      \n        \n          \n          \n          \n          \n            \n              \n                \n                首页"
+    ],
+    "key_findings": [
+      "welcome:sly@myq@666root:sly@myq@666(做题的时候不会出现以上所有凭证)",
+      "flag&#123;user-1e34287df8a27d2bbfa5ff51abb3d2ff&#125;flag&#123;root-a5e1f6d2cd2448650c88a8985cfb6365&#125;",
+      "[GFCTF 2021]",
+      "User.class.php",
+      "if ($this-&gt;username === &#x27;admin&#x27; &amp;&amp; $this-&gt;password === &#x27;admin&#x27;) &#123;    $_SESSION[&#x27;user&#x27;] = $this-&gt;username;&#125;"
+    ],
+    "flags": [],
+    "tags": [
+      "网络取证",
+      "Writeup",
+      "CTF"
+    ],
+    "content_hash": "8e32f58d1d348736",
+    "source_url": "https://mei-you-qian.github.io/2026/06/15/PHAR/index"
+  },
+  {
+    "case_id": "獬豸杯_2026_dir_2026獬豸杯",
+    "title": "2026獬豸杯",
+    "category": "电子取证",
+    "competition": "獬豸杯",
+    "year": 2026,
+    "difficulty": "medium",
+    "tools_used": [],
+    "techniques": [],
+    "description": "包含 202 张截图的取证案例",
+    "solution_steps": [],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "獬豸杯"
+    ],
+    "content_hash": "8ab5efc786eb139b",
+    "source_url": ""
+  }
+]

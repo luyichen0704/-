@@ -1,0 +1,45 @@
+{
+  "total_cases": 107,
+  "categories": {
+    "网络取证": 65,
+    "磁盘取证": 28,
+    "电子取证": 14
+  },
+  "competitions": {
+    "其他": 13,
+    "FIC": 35,
+    "NSSCTF": 8,
+    "美亚杯": 14,
+    "SPC": 9,
+    "警铮杯": 2,
+    "数证杯": 9,
+    "CTFshow": 8,
+    "獬豸杯": 4,
+    "盘古石": 3,
+    "平航杯": 2
+  },
+  "years": [
+    2024,
+    2025,
+    2026,
+    2066
+  ],
+  "tools": [
+    "火眼",
+    "diskgenius",
+    "tshark",
+    "wireshark",
+    "strings",
+    "binwalk",
+    "hashcat",
+    "sleuthkit",
+    "foremost",
+    "steghide",
+    "volatility",
+    "openssl",
+    "010editor",
+    "jadx",
+    "john",
+    "stegsolve"
+  ]
+}

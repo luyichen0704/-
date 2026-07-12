@@ -1,0 +1,395 @@
+[
+  {
+    "case_id": "美亚杯_2024_9d579c5de95abc95",
+    "title": "标签 - Mobile",
+    "category": "网络取证",
+    "competition": "美亚杯",
+    "year": 2024,
+    "difficulty": "hard",
+    "tools_used": [],
+    "techniques": [],
+    "description": "标签 - Mobile - 玫幽倩的小博客 var Fluid = window.Fluid || {}; Fluid.ctx = Object.assign({}, Fluid.ctx) var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3",
+    "solution_steps": [
+      "标签 - Mobile - 玫幽倩的小博客\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n    \n  \n\n\n\n  \n\n\n\n\n\n\n\n\n  \n    var Fluid = window.Fluid || {};\n    Fluid.ctx = Object.assign({}, Fluid.ctx)\n    var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4,h5,h6\",\"placement\":\"left\",\"visible\":\"hover\",\"icon\":\"\"},\"progressbar\":{\"enable\":true,\"height_px\":3,\"color\":\"#29d\",\"options\":{\"showSpinner\":false,\"trickleSpeed\":100}},\"code_language\":{\"enable\":true,\"default\":\"TEXT\"},\"copy_btn\":true,\"image_caption\":{\"enable\":true},\"image_zoom\":{\"enable\":true,\"img_url_replace\":[\"\",\"\"]},\"toc\":{\"enable\":true,\"placement\":\"right\",\"headingSelector\":\"h1,h2,h3,h4,h5,h6\",\"collapseDepth\":0},\"lazyload\":{\"enable\":true,\"loading_img\":\"/img/loading.gif\",\"onlypost\":false,\"offset_factor\":2},\"web_analytics\":{\"enable\":false,\"follow_dnt\":true,\"baidu\":null,\"google\":{\"measurement_id\":null},\"tencent\":{\"sid\":null,\"cid\":null},\"leancloud\":{\"app_id\":null,\"app_key\":null,\"server_url\":null,\"path\":\"window.location.pathname\",\"ignore_local\":false},\"umami\":{\"src\":null,\"website_id\":null,\"domains\":null,\"start_time\":\"2024-01-01T00:00:00.000Z\",\"token\":null,\"api_server\":null}},\"search_path\":\"/local-search.xml\",\"include_content_in_search\":true};\n\n    if (CONFIG.web_analytics.follow_dnt) {\n      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;\n      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));\n    }\n  \n  \n  \n  \n\n\n  \n\n\n\n\n  \n\n  \n    \n\n\n  \n  \n    \n      玫幽倩\n    \n\n    \n      \n    \n\n    \n    \n      \n        \n          \n          \n          \n          \n            \n              \n                \n                首页"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "网络取证",
+      "Writeup",
+      "CTF"
+    ],
+    "content_hash": "9d579c5de95abc95",
+    "source_url": "https://mei-you-qian.github.io/tags/Mobile/index"
+  },
+  {
+    "case_id": "美亚杯_2024_cfde22327deff7ff",
+    "title": "标签 - Reverse",
+    "category": "网络取证",
+    "competition": "美亚杯",
+    "year": 2024,
+    "difficulty": "hard",
+    "tools_used": [],
+    "techniques": [],
+    "description": "标签 - Reverse - 玫幽倩的小博客 var Fluid = window.Fluid || {}; Fluid.ctx = Object.assign({}, Fluid.ctx) var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h",
+    "solution_steps": [
+      "标签 - Reverse - 玫幽倩的小博客\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n    \n  \n\n\n\n  \n\n\n\n\n\n\n\n\n  \n    var Fluid = window.Fluid || {};\n    Fluid.ctx = Object.assign({}, Fluid.ctx)\n    var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4,h5,h6\",\"placement\":\"left\",\"visible\":\"hover\",\"icon\":\"\"},\"progressbar\":{\"enable\":true,\"height_px\":3,\"color\":\"#29d\",\"options\":{\"showSpinner\":false,\"trickleSpeed\":100}},\"code_language\":{\"enable\":true,\"default\":\"TEXT\"},\"copy_btn\":true,\"image_caption\":{\"enable\":true},\"image_zoom\":{\"enable\":true,\"img_url_replace\":[\"\",\"\"]},\"toc\":{\"enable\":true,\"placement\":\"right\",\"headingSelector\":\"h1,h2,h3,h4,h5,h6\",\"collapseDepth\":0},\"lazyload\":{\"enable\":true,\"loading_img\":\"/img/loading.gif\",\"onlypost\":false,\"offset_factor\":2},\"web_analytics\":{\"enable\":false,\"follow_dnt\":true,\"baidu\":null,\"google\":{\"measurement_id\":null},\"tencent\":{\"sid\":null,\"cid\":null},\"leancloud\":{\"app_id\":null,\"app_key\":null,\"server_url\":null,\"path\":\"window.location.pathname\",\"ignore_local\":false},\"umami\":{\"src\":null,\"website_id\":null,\"domains\":null,\"start_time\":\"2024-01-01T00:00:00.000Z\",\"token\":null,\"api_server\":null}},\"search_path\":\"/local-search.xml\",\"include_content_in_search\":true};\n\n    if (CONFIG.web_analytics.follow_dnt) {\n      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;\n      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));\n    }\n  \n  \n  \n  \n\n\n  \n\n\n\n\n  \n\n  \n    \n\n\n  \n  \n    \n      玫幽倩\n    \n\n    \n      \n    \n\n    \n    \n      \n        \n          \n          \n          \n          \n            \n              \n                \n                首页"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "网络取证",
+      "Writeup",
+      "CTF"
+    ],
+    "content_hash": "cfde22327deff7ff",
+    "source_url": "https://mei-you-qian.github.io/tags/Reverse/page/2/index"
+  },
+  {
+    "case_id": "美亚杯_2024_ba36465876b0d91c",
+    "title": "标签 - Misc",
+    "category": "网络取证",
+    "competition": "美亚杯",
+    "year": 2024,
+    "difficulty": "hard",
+    "tools_used": [],
+    "techniques": [],
+    "description": "标签 - Misc - 玫幽倩的小博客 var Fluid = window.Fluid || {}; Fluid.ctx = Object.assign({}, Fluid.ctx) var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h",
+    "solution_steps": [
+      "标签 - Misc - 玫幽倩的小博客\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n    \n  \n\n\n\n  \n\n\n\n\n\n\n\n\n  \n    var Fluid = window.Fluid || {};\n    Fluid.ctx = Object.assign({}, Fluid.ctx)\n    var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4,h5,h6\",\"placement\":\"left\",\"visible\":\"hover\",\"icon\":\"\"},\"progressbar\":{\"enable\":true,\"height_px\":3,\"color\":\"#29d\",\"options\":{\"showSpinner\":false,\"trickleSpeed\":100}},\"code_language\":{\"enable\":true,\"default\":\"TEXT\"},\"copy_btn\":true,\"image_caption\":{\"enable\":true},\"image_zoom\":{\"enable\":true,\"img_url_replace\":[\"\",\"\"]},\"toc\":{\"enable\":true,\"placement\":\"right\",\"headingSelector\":\"h1,h2,h3,h4,h5,h6\",\"collapseDepth\":0},\"lazyload\":{\"enable\":true,\"loading_img\":\"/img/loading.gif\",\"onlypost\":false,\"offset_factor\":2},\"web_analytics\":{\"enable\":false,\"follow_dnt\":true,\"baidu\":null,\"google\":{\"measurement_id\":null},\"tencent\":{\"sid\":null,\"cid\":null},\"leancloud\":{\"app_id\":null,\"app_key\":null,\"server_url\":null,\"path\":\"window.location.pathname\",\"ignore_local\":false},\"umami\":{\"src\":null,\"website_id\":null,\"domains\":null,\"start_time\":\"2024-01-01T00:00:00.000Z\",\"token\":null,\"api_server\":null}},\"search_path\":\"/local-search.xml\",\"include_content_in_search\":true};\n\n    if (CONFIG.web_analytics.follow_dnt) {\n      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;\n      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));\n    }\n  \n  \n  \n  \n\n\n  \n\n\n\n\n  \n\n  \n    \n\n\n  \n  \n    \n      玫幽倩\n    \n\n    \n      \n    \n\n    \n    \n      \n        \n          \n          \n          \n          \n            \n              \n                \n                首页"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "网络取证",
+      "Writeup",
+      "CTF"
+    ],
+    "content_hash": "ba36465876b0d91c",
+    "source_url": "https://mei-you-qian.github.io/tags/Misc/page/2/index"
+  },
+  {
+    "case_id": "美亚杯_2024_ac234015f9615dce",
+    "title": "index",
+    "category": "磁盘取证",
+    "competition": "美亚杯",
+    "year": 2024,
+    "difficulty": "hard",
+    "tools_used": [
+      "火眼",
+      "wireshark"
+    ],
+    "techniques": [
+      "密码破解"
+    ],
+    "description": "玫幽倩的小博客 var Fluid = window.Fluid || {}; Fluid.ctx = Object.assign({}, Fluid.ctx) var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4,h5,h6\",\"pl",
+    "solution_steps": [
+      "玫幽倩的小博客\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n    \n  \n\n\n\n  \n\n\n\n\n\n\n\n\n  \n    var Fluid = window.Fluid || {};\n    Fluid.ctx = Object.assign({}, Fluid.ctx)\n    var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4,h5,h6\",\"placement\":\"left\",\"visible\":\"hover\",\"icon\":\"\"},\"progressbar\":{\"enable\":true,\"height_px\":3,\"color\":\"#29d\",\"options\":{\"showSpinner\":false,\"trickleSpeed\":100}},\"code_language\":{\"enable\":true,\"default\":\"TEXT\"},\"copy_btn\":true,\"image_caption\":{\"enable\":true},\"image_zoom\":{\"enable\":true,\"img_url_replace\":[\"\",\"\"]},\"toc\":{\"enable\":true,\"placement\":\"right\",\"headingSelector\":\"h1,h2,h3,h4,h5,h6\",\"collapseDepth\":0},\"lazyload\":{\"enable\":true,\"loading_img\":\"/img/loading.gif\",\"onlypost\":false,\"offset_factor\":2},\"web_analytics\":{\"enable\":false,\"follow_dnt\":true,\"baidu\":null,\"google\":{\"measurement_id\":null},\"tencent\":{\"sid\":null,\"cid\":null},\"leancloud\":{\"app_id\":null,\"app_key\":null,\"server_url\":null,\"path\":\"window.location.pathname\",\"ignore_local\":false},\"umami\":{\"src\":null,\"website_id\":null,\"domains\":null,\"start_time\":\"2024-01-01T00:00:00.000Z\",\"token\":null,\"api_server\":null}},\"search_path\":\"/local-search.xml\",\"include_content_in_search\":true};\n\n    if (CONFIG.web_analytics.follow_dnt) {\n      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;\n      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));\n    }\n  \n  \n  \n  \n\n\n  \n\n\n\n\n  \n\n  \n    \n\n\n  \n  \n    \n      玫幽倩\n    \n\n    \n      \n    \n\n    \n    \n      \n        \n          \n          \n          \n          \n            \n              \n                \n                首页"
+    ],
+    "key_findings": [],
+    "flags": [
+      "flag{Wireshark_1s_4wes0m3}"
+    ],
+    "tags": [
+      "磁盘取证",
+      "火眼",
+      "wireshark",
+      "CTF",
+      "Writeup"
+    ],
+    "content_hash": "ac234015f9615dce",
+    "source_url": "https://mei-you-qian.github.io/page/3/index"
+  },
+  {
+    "case_id": "美亚杯_2024_08452bfe38e17c59",
+    "title": "分类 - 电子取证",
+    "category": "网络取证",
+    "competition": "美亚杯",
+    "year": 2024,
+    "difficulty": "hard",
+    "tools_used": [],
+    "techniques": [],
+    "description": "分类 - 电子取证 - 玫幽倩的小博客 var Fluid = window.Fluid || {}; Fluid.ctx = Object.assign({}, Fluid.ctx) var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h",
+    "solution_steps": [
+      "分类 - 电子取证 - 玫幽倩的小博客\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n    \n  \n\n\n\n  \n\n\n\n\n\n\n\n\n  \n    var Fluid = window.Fluid || {};\n    Fluid.ctx = Object.assign({}, Fluid.ctx)\n    var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4,h5,h6\",\"placement\":\"left\",\"visible\":\"hover\",\"icon\":\"\"},\"progressbar\":{\"enable\":true,\"height_px\":3,\"color\":\"#29d\",\"options\":{\"showSpinner\":false,\"trickleSpeed\":100}},\"code_language\":{\"enable\":true,\"default\":\"TEXT\"},\"copy_btn\":true,\"image_caption\":{\"enable\":true},\"image_zoom\":{\"enable\":true,\"img_url_replace\":[\"\",\"\"]},\"toc\":{\"enable\":true,\"placement\":\"right\",\"headingSelector\":\"h1,h2,h3,h4,h5,h6\",\"collapseDepth\":0},\"lazyload\":{\"enable\":true,\"loading_img\":\"/img/loading.gif\",\"onlypost\":false,\"offset_factor\":2},\"web_analytics\":{\"enable\":false,\"follow_dnt\":true,\"baidu\":null,\"google\":{\"measurement_id\":null},\"tencent\":{\"sid\":null,\"cid\":null},\"leancloud\":{\"app_id\":null,\"app_key\":null,\"server_url\":null,\"path\":\"window.location.pathname\",\"ignore_local\":false},\"umami\":{\"src\":null,\"website_id\":null,\"domains\":null,\"start_time\":\"2024-01-01T00:00:00.000Z\",\"token\":null,\"api_server\":null}},\"search_path\":\"/local-search.xml\",\"include_content_in_search\":true};\n\n    if (CONFIG.web_analytics.follow_dnt) {\n      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;\n      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));\n    }\n  \n  \n  \n  \n\n\n  \n\n\n\n\n  \n\n  \n    \n\n\n  \n  \n    \n      玫幽倩\n    \n\n    \n      \n    \n\n    \n    \n      \n        \n          \n          \n          \n          \n            \n              \n                \n                首页"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "网络取证",
+      "Writeup",
+      "CTF"
+    ],
+    "content_hash": "08452bfe38e17c59",
+    "source_url": "https://mei-you-qian.github.io/categories/电子取证/page/2/index"
+  },
+  {
+    "case_id": "美亚杯_2024_ee2a5304b84b5ed1",
+    "title": "归档",
+    "category": "网络取证",
+    "competition": "美亚杯",
+    "year": 2024,
+    "difficulty": "hard",
+    "tools_used": [],
+    "techniques": [],
+    "description": "归档 - 玫幽倩的小博客 var Fluid = window.Fluid || {}; Fluid.ctx = Object.assign({}, Fluid.ctx) var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4,h5,h6",
+    "solution_steps": [
+      "归档 - 玫幽倩的小博客\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n    \n  \n\n\n\n  \n\n\n\n\n\n\n\n\n  \n    var Fluid = window.Fluid || {};\n    Fluid.ctx = Object.assign({}, Fluid.ctx)\n    var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4,h5,h6\",\"placement\":\"left\",\"visible\":\"hover\",\"icon\":\"\"},\"progressbar\":{\"enable\":true,\"height_px\":3,\"color\":\"#29d\",\"options\":{\"showSpinner\":false,\"trickleSpeed\":100}},\"code_language\":{\"enable\":true,\"default\":\"TEXT\"},\"copy_btn\":true,\"image_caption\":{\"enable\":true},\"image_zoom\":{\"enable\":true,\"img_url_replace\":[\"\",\"\"]},\"toc\":{\"enable\":true,\"placement\":\"right\",\"headingSelector\":\"h1,h2,h3,h4,h5,h6\",\"collapseDepth\":0},\"lazyload\":{\"enable\":true,\"loading_img\":\"/img/loading.gif\",\"onlypost\":false,\"offset_factor\":2},\"web_analytics\":{\"enable\":false,\"follow_dnt\":true,\"baidu\":null,\"google\":{\"measurement_id\":null},\"tencent\":{\"sid\":null,\"cid\":null},\"leancloud\":{\"app_id\":null,\"app_key\":null,\"server_url\":null,\"path\":\"window.location.pathname\",\"ignore_local\":false},\"umami\":{\"src\":null,\"website_id\":null,\"domains\":null,\"start_time\":\"2024-01-01T00:00:00.000Z\",\"token\":null,\"api_server\":null}},\"search_path\":\"/local-search.xml\",\"include_content_in_search\":true};\n\n    if (CONFIG.web_analytics.follow_dnt) {\n      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;\n      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));\n    }\n  \n  \n  \n  \n\n\n  \n\n\n\n\n  \n\n  \n    \n\n\n  \n  \n    \n      玫幽倩\n    \n\n    \n      \n    \n\n    \n    \n      \n        \n          \n          \n          \n          \n            \n              \n                \n                首页"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "网络取证",
+      "Writeup",
+      "CTF"
+    ],
+    "content_hash": "ee2a5304b84b5ed1",
+    "source_url": "https://mei-you-qian.github.io/archives/page/3/index"
+  },
+  {
+    "case_id": "美亚杯_2025_53b76e2c864b5e39",
+    "title": "归档",
+    "category": "网络取证",
+    "competition": "美亚杯",
+    "year": 2025,
+    "difficulty": "hard",
+    "tools_used": [],
+    "techniques": [],
+    "description": "归档 - 玫幽倩的小博客 var Fluid = window.Fluid || {}; Fluid.ctx = Object.assign({}, Fluid.ctx) var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4,h5,h6",
+    "solution_steps": [
+      "归档 - 玫幽倩的小博客\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n    \n  \n\n\n\n  \n\n\n\n\n\n\n\n\n  \n    var Fluid = window.Fluid || {};\n    Fluid.ctx = Object.assign({}, Fluid.ctx)\n    var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4,h5,h6\",\"placement\":\"left\",\"visible\":\"hover\",\"icon\":\"\"},\"progressbar\":{\"enable\":true,\"height_px\":3,\"color\":\"#29d\",\"options\":{\"showSpinner\":false,\"trickleSpeed\":100}},\"code_language\":{\"enable\":true,\"default\":\"TEXT\"},\"copy_btn\":true,\"image_caption\":{\"enable\":true},\"image_zoom\":{\"enable\":true,\"img_url_replace\":[\"\",\"\"]},\"toc\":{\"enable\":true,\"placement\":\"right\",\"headingSelector\":\"h1,h2,h3,h4,h5,h6\",\"collapseDepth\":0},\"lazyload\":{\"enable\":true,\"loading_img\":\"/img/loading.gif\",\"onlypost\":false,\"offset_factor\":2},\"web_analytics\":{\"enable\":false,\"follow_dnt\":true,\"baidu\":null,\"google\":{\"measurement_id\":null},\"tencent\":{\"sid\":null,\"cid\":null},\"leancloud\":{\"app_id\":null,\"app_key\":null,\"server_url\":null,\"path\":\"window.location.pathname\",\"ignore_local\":false},\"umami\":{\"src\":null,\"website_id\":null,\"domains\":null,\"start_time\":\"2024-01-01T00:00:00.000Z\",\"token\":null,\"api_server\":null}},\"search_path\":\"/local-search.xml\",\"include_content_in_search\":true};\n\n    if (CONFIG.web_analytics.follow_dnt) {\n      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;\n      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));\n    }\n  \n  \n  \n  \n\n\n  \n\n\n\n\n  \n\n  \n    \n\n\n  \n  \n    \n      玫幽倩\n    \n\n    \n      \n    \n\n    \n    \n      \n        \n          \n          \n          \n          \n            \n              \n                \n                首页"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "网络取证",
+      "Writeup",
+      "CTF"
+    ],
+    "content_hash": "53b76e2c864b5e39",
+    "source_url": "https://mei-you-qian.github.io/archives/2025/11/index"
+  },
+  {
+    "case_id": "美亚杯_2025_1677716462e31064",
+    "title": "归档",
+    "category": "网络取证",
+    "competition": "美亚杯",
+    "year": 2025,
+    "difficulty": "hard",
+    "tools_used": [],
+    "techniques": [],
+    "description": "归档 - 玫幽倩的小博客 var Fluid = window.Fluid || {}; Fluid.ctx = Object.assign({}, Fluid.ctx) var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4,h5,h6",
+    "solution_steps": [
+      "归档 - 玫幽倩的小博客\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n    \n  \n\n\n\n  \n\n\n\n\n\n\n\n\n  \n    var Fluid = window.Fluid || {};\n    Fluid.ctx = Object.assign({}, Fluid.ctx)\n    var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4,h5,h6\",\"placement\":\"left\",\"visible\":\"hover\",\"icon\":\"\"},\"progressbar\":{\"enable\":true,\"height_px\":3,\"color\":\"#29d\",\"options\":{\"showSpinner\":false,\"trickleSpeed\":100}},\"code_language\":{\"enable\":true,\"default\":\"TEXT\"},\"copy_btn\":true,\"image_caption\":{\"enable\":true},\"image_zoom\":{\"enable\":true,\"img_url_replace\":[\"\",\"\"]},\"toc\":{\"enable\":true,\"placement\":\"right\",\"headingSelector\":\"h1,h2,h3,h4,h5,h6\",\"collapseDepth\":0},\"lazyload\":{\"enable\":true,\"loading_img\":\"/img/loading.gif\",\"onlypost\":false,\"offset_factor\":2},\"web_analytics\":{\"enable\":false,\"follow_dnt\":true,\"baidu\":null,\"google\":{\"measurement_id\":null},\"tencent\":{\"sid\":null,\"cid\":null},\"leancloud\":{\"app_id\":null,\"app_key\":null,\"server_url\":null,\"path\":\"window.location.pathname\",\"ignore_local\":false},\"umami\":{\"src\":null,\"website_id\":null,\"domains\":null,\"start_time\":\"2024-01-01T00:00:00.000Z\",\"token\":null,\"api_server\":null}},\"search_path\":\"/local-search.xml\",\"include_content_in_search\":true};\n\n    if (CONFIG.web_analytics.follow_dnt) {\n      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;\n      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));\n    }\n  \n  \n  \n  \n\n\n  \n\n\n\n\n  \n\n  \n    \n\n\n  \n  \n    \n      玫幽倩\n    \n\n    \n      \n    \n\n    \n    \n      \n        \n          \n          \n          \n          \n            \n              \n                \n                首页"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "网络取证",
+      "Writeup",
+      "CTF"
+    ],
+    "content_hash": "1677716462e31064",
+    "source_url": "https://mei-you-qian.github.io/archives/2025/page/2/index"
+  },
+  {
+    "case_id": "美亚杯_2025_7adede654c5e7e2c",
+    "title": "2025第六届警铮杯",
+    "category": "磁盘取证",
+    "competition": "美亚杯",
+    "year": 2025,
+    "difficulty": "hard",
+    "tools_used": [
+      "binwalk",
+      "火眼",
+      "sleuthkit",
+      "wireshark"
+    ],
+    "techniques": [],
+    "description": "2025第六届警铮杯 - 玫幽倩的小博客 var Fluid = window.Fluid || {}; Fluid.ctx = Object.assign({}, Fluid.ctx) var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,",
+    "solution_steps": [
+      "2025第六届警铮杯 - 玫幽倩的小博客\n\n  \n\n\n\n  \n\n  \n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n    \n  \n\n\n\n  \n\n\n\n\n\n\n\n\n  \n    var Fluid = window.Fluid || {};\n    Fluid.ctx = Object.assign({}, Fluid.ctx)\n    var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4,h5,h6\",\"placement\":\"left\",\"visible\":\"hover\",\"icon\":\"\"},\"progressbar\":{\"enable\":true,\"height_px\":3,\"color\":\"#29d\",\"options\":{\"showSpinner\":false,\"trickleSpeed\":100}},\"code_language\":{\"enable\":true,\"default\":\"TEXT\"},\"copy_btn\":true,\"image_caption\":{\"enable\":true},\"image_zoom\":{\"enable\":true,\"img_url_replace\":[\"\",\"\"]},\"toc\":{\"enable\":true,\"placement\":\"right\",\"headingSelector\":\"h1,h2,h3,h4,h5,h6\",\"collapseDepth\":0},\"lazyload\":{\"enable\":true,\"loading_img\":\"/img/loading.gif\",\"onlypost\":false,\"offset_factor\":2},\"web_analytics\":{\"enable\":false,\"follow_dnt\":true,\"baidu\":null,\"google\":{\"measurement_id\":null},\"tencent\":{\"sid\":null,\"cid\":null},\"leancloud\":{\"app_id\":null,\"app_key\":null,\"server_url\":null,\"path\":\"window.location.pathname\",\"ignore_local\":false},\"umami\":{\"src\":null,\"website_id\":null,\"domains\":null,\"start_time\":\"2024-01-01T00:00:00.000Z\",\"token\":null,\"api_server\":null}},\"search_path\":\"/local-search.xml\",\"include_content_in_search\":true};\n\n    if (CONFIG.web_analytics.follow_dnt) {\n      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;\n      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));\n    }\n  \n  \n  \n  \n\n\n  \n\n\n\n\n  \n\n  \n    \n\n\n  \n  \n    \n      玫幽倩\n    \n\n    \n      \n    \n\n    \n    \n      \n        \n          \n          \n          \n          \n            \n              \n                \n                首页"
+    ],
+    "key_findings": [
+      "=COUNTIF(A2:A1001,&quot;??&quot;)",
+      "=COUNTIF(A2:A1001,&quot;陈*&quot;)",
+      "systemctl status sshd",
+      "systemctl start sshd",
+      "systemctl start nginxsystemctl status nginx"
+    ],
+    "flags": [
+      "CTF{Bl4ck_5ilk_1s_the_be5t}",
+      "CTF{15ef386b-a3a7-7344-3b05-ac367316fb76}",
+      "flag{四川省泸州市江阳区沱江三桥}",
+      "flag{do_you_have_galgame}",
+      "CTF{W1r3sharK_3at_r3p3at_paSsw0rd}",
+      "CTF{The_competition_has_so_far_held_26_rounds}",
+      "flag{He1l0_d4_ba1}"
+    ],
+    "tags": [
+      "磁盘取证",
+      "火眼",
+      "binwalk",
+      "sleuthkit",
+      "CTF",
+      "Writeup"
+    ],
+    "content_hash": "7adede654c5e7e2c",
+    "source_url": "https://mei-you-qian.github.io/2025/11/25/2025警铮杯/index"
+  },
+  {
+    "case_id": "美亚杯_2025_a4fee9d61dcb23f1",
+    "title": "2025美亚杯-资格赛（全）",
+    "category": "磁盘取证",
+    "competition": "美亚杯",
+    "year": 2025,
+    "difficulty": "hard",
+    "tools_used": [
+      "火眼",
+      "sleuthkit"
+    ],
+    "techniques": [
+      "文件恢复",
+      "密码破解"
+    ],
+    "description": "2025美亚杯-资格赛（全） - 玫幽倩的小博客 var Fluid = window.Fluid || {}; Fluid.ctx = Object.assign({}, Fluid.ctx) var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2",
+    "solution_steps": [
+      "2025美亚杯-资格赛（全） - 玫幽倩的小博客\n\n  \n\n\n\n  \n\n  \n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n    \n  \n\n\n\n  \n\n\n\n\n\n\n\n\n  \n    var Fluid = window.Fluid || {};\n    Fluid.ctx = Object.assign({}, Fluid.ctx)\n    var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4,h5,h6\",\"placement\":\"left\",\"visible\":\"hover\",\"icon\":\"\"},\"progressbar\":{\"enable\":true,\"height_px\":3,\"color\":\"#29d\",\"options\":{\"showSpinner\":false,\"trickleSpeed\":100}},\"code_language\":{\"enable\":true,\"default\":\"TEXT\"},\"copy_btn\":true,\"image_caption\":{\"enable\":true},\"image_zoom\":{\"enable\":true,\"img_url_replace\":[\"\",\"\"]},\"toc\":{\"enable\":true,\"placement\":\"right\",\"headingSelector\":\"h1,h2,h3,h4,h5,h6\",\"collapseDepth\":0},\"lazyload\":{\"enable\":true,\"loading_img\":\"/img/loading.gif\",\"onlypost\":false,\"offset_factor\":2},\"web_analytics\":{\"enable\":false,\"follow_dnt\":true,\"baidu\":null,\"google\":{\"measurement_id\":null},\"tencent\":{\"sid\":null,\"cid\":null},\"leancloud\":{\"app_id\":null,\"app_key\":null,\"server_url\":null,\"path\":\"window.location.pathname\",\"ignore_local\":false},\"umami\":{\"src\":null,\"website_id\":null,\"domains\":null,\"start_time\":\"2024-01-01T00:00:00.000Z\",\"token\":null,\"api_server\":null}},\"search_path\":\"/local-search.xml\",\"include_content_in_search\":true};\n\n    if (CONFIG.web_analytics.follow_dnt) {\n      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;\n      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));\n    }\n  \n  \n  \n  \n\n\n  \n\n\n\n\n  \n\n  \n    \n\n\n  \n  \n    \n      玫幽倩\n    \n\n    \n      \n    \n\n    \n    \n      \n        \n          \n          \n          \n          \n            \n              \n                \n                首页"
+    ],
+    "key_findings": [
+      "SELECT Z_PK,ZBUNDLEID,ZTARGETBUNDLEID FROM ZINTERACTIONS WHERE ZTARGETBUNDLEID IS NOT NULL;",
+      "ZASSET",
+      "ZLASTSHAREDDATE",
+      "SELECT Z_PK,ZFILENAME FROM ZASSET WHERE ZLASTSHAREDDATE IS NOT NULL;",
+      "SELECT * FROM records WHERE record LIKE &quot;%chat_input%&quot;"
+    ],
+    "flags": [],
+    "tags": [
+      "磁盘取证",
+      "火眼",
+      "sleuthkit",
+      "CTF",
+      "Writeup"
+    ],
+    "content_hash": "a4fee9d61dcb23f1",
+    "source_url": "https://mei-you-qian.github.io/2025/11/21/2025美亚杯-资格赛/index"
+  },
+  {
+    "case_id": "美亚杯_2025_95ee76fbc3ba20ab",
+    "title": "2024美亚杯个人赛",
+    "category": "磁盘取证",
+    "competition": "美亚杯",
+    "year": 2025,
+    "difficulty": "hard",
+    "tools_used": [
+      "火眼",
+      "volatility"
+    ],
+    "techniques": [
+      "文件恢复",
+      "内存分析"
+    ],
+    "description": "2024美亚杯个人赛 - 玫幽倩的小博客 var Fluid = window.Fluid || {}; Fluid.ctx = Object.assign({}, Fluid.ctx) var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,",
+    "solution_steps": [
+      "2024美亚杯个人赛 - 玫幽倩的小博客\n\n  \n\n\n\n  \n\n  \n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n    \n  \n\n\n\n  \n\n\n\n\n\n\n\n\n  \n    var Fluid = window.Fluid || {};\n    Fluid.ctx = Object.assign({}, Fluid.ctx)\n    var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4,h5,h6\",\"placement\":\"left\",\"visible\":\"hover\",\"icon\":\"\"},\"progressbar\":{\"enable\":true,\"height_px\":3,\"color\":\"#29d\",\"options\":{\"showSpinner\":false,\"trickleSpeed\":100}},\"code_language\":{\"enable\":true,\"default\":\"TEXT\"},\"copy_btn\":true,\"image_caption\":{\"enable\":true},\"image_zoom\":{\"enable\":true,\"img_url_replace\":[\"\",\"\"]},\"toc\":{\"enable\":true,\"placement\":\"right\",\"headingSelector\":\"h1,h2,h3,h4,h5,h6\",\"collapseDepth\":0},\"lazyload\":{\"enable\":true,\"loading_img\":\"/img/loading.gif\",\"onlypost\":false,\"offset_factor\":2},\"web_analytics\":{\"enable\":false,\"follow_dnt\":true,\"baidu\":null,\"google\":{\"measurement_id\":null},\"tencent\":{\"sid\":null,\"cid\":null},\"leancloud\":{\"app_id\":null,\"app_key\":null,\"server_url\":null,\"path\":\"window.location.pathname\",\"ignore_local\":false},\"umami\":{\"src\":null,\"website_id\":null,\"domains\":null,\"start_time\":\"2024-01-01T00:00:00.000Z\",\"token\":null,\"api_server\":null}},\"search_path\":\"/local-search.xml\",\"include_content_in_search\":true};\n\n    if (CONFIG.web_analytics.follow_dnt) {\n      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;\n      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));\n    }\n  \n  \n  \n  \n\n\n  \n\n\n\n\n  \n\n  \n    \n\n\n  \n  \n    \n      玫幽倩\n    \n\n    \n      \n    \n\n    \n    \n      \n        \n          \n          \n          \n          \n            \n              \n                \n                首页"
+    ],
+    "key_findings": [
+      "&lt;msg&gt;&lt;img hdlength=&quot;0&quot; length=&quot;139561&quot; aeskey=&quot;b3f5f12230235d3dfe4f90e4984c8ebf&quot; encryver=&quot;1&quot; md5=&quot;44c089af8c9a1414edb8ee6026be3307&quot; originsourcemd5=&quot;0bbe83bda8f3e13735e9009078a231f0&quot; filekey=&quot;wxid_t7zgo57j9m0j22_314_1725012210&quot; uploadcontinuecount=&quot;0&quot; imgsourceurl=&quot;&quot; hevc_mid_size=&quot;139561&quot; cdnbigimgurl=&quot;&quot; cdnmidimgurl=&quot;3052020100044b30490201000204a695112702030f525902044b7d9b2b020466d198f2042432353830663531302d623137372d343463312d623732642d6566396562313331663331610204011d0a020201000400&quot; cdnthumburl=&quot;3052020100044b30490201000204a695112702030f525902044b7d9b2b020466d198f2042432353830663531302d623137372d343463312d623732642d6566396562313331663331610204011d0a020201000400&quot; cdnthumblength=&quot;3971&quot; cdnthumbwidth=&quot;90&quot; cdnthumbheight=&quot;120&quot; cdnthumbaeskey=&quot;b3f5f12230235d3dfe4f90e4984c8ebf&quot;/&gt;&lt;appinfo&gt;&lt;appid&gt;&lt;/appid&gt;&lt;appname&gt;&lt;/appname&gt;&lt;version&gt;0&lt;/version&gt;&lt;isforceupdate&gt;1&lt;/isforceupdate&gt;&lt;mediatagname&gt;&lt;/mediatagname&gt;&lt;messageext&gt;&lt;/messageext&gt;&lt;messageaction&gt;&lt;/messageaction&gt;&lt;/appinfo&gt;&lt;MMAsset&gt;&lt;m_assetUrlForSystem&gt;&lt;![CDATA[F58B98FE-8010-44B7-8BF7-F23AF15DCFCA/L0/001]]&gt;&lt;/m_assetUrlForSystem&gt;&lt;m_isNeedOriginImage&gt;0&lt;/m_isNeedOriginImage&gt;&lt;m_isFailedFromIcloud&gt;0&lt;/m_isFailedFromIcloud&gt;&lt;m_isLoadingFromIcloud&gt;0&lt;/m_isLoadingFromIcloud&gt;&lt;/MMAsset&gt;&lt;/msg&gt;",
+      "build.prop",
+      "/build.prop",
+      "0xe90aD3f80e39E83B533eEF3ED23c641Ec51089c60x5aA371c585E7Dcd914BFd8a782A7471912cE777B0x40ad807B862F0298d615E8db969FFf743Ac7d2650x2acCe67E25C2D9e924f55960874CED06aCC4D0d3"
+    ],
+    "flags": [],
+    "tags": [
+      "磁盘取证",
+      "火眼",
+      "volatility",
+      "CTF",
+      "Writeup"
+    ],
+    "content_hash": "95ee76fbc3ba20ab",
+    "source_url": "https://mei-you-qian.github.io/2025/11/14/2024美亚杯个人赛/index"
+  },
+  {
+    "case_id": "美亚杯_2025_5c04c3feb7d12f47",
+    "title": "2025数证杯初赛",
+    "category": "磁盘取证",
+    "competition": "美亚杯",
+    "year": 2025,
+    "difficulty": "hard",
+    "tools_used": [
+      "火眼",
+      "sleuthkit"
+    ],
+    "techniques": [
+      "文件恢复",
+      "流量分析",
+      "内存分析",
+      "密码破解",
+      "隐写提取"
+    ],
+    "description": "2025数证杯初赛 - 玫幽倩的小博客 var Fluid = window.Fluid || {}; Fluid.ctx = Object.assign({}, Fluid.ctx) var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h",
+    "solution_steps": [
+      "2025数证杯初赛 - 玫幽倩的小博客\n\n  \n\n\n\n  \n\n  \n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n    \n  \n\n\n\n  \n\n\n\n\n\n\n\n\n  \n    var Fluid = window.Fluid || {};\n    Fluid.ctx = Object.assign({}, Fluid.ctx)\n    var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4,h5,h6\",\"placement\":\"left\",\"visible\":\"hover\",\"icon\":\"\"},\"progressbar\":{\"enable\":true,\"height_px\":3,\"color\":\"#29d\",\"options\":{\"showSpinner\":false,\"trickleSpeed\":100}},\"code_language\":{\"enable\":true,\"default\":\"TEXT\"},\"copy_btn\":true,\"image_caption\":{\"enable\":true},\"image_zoom\":{\"enable\":true,\"img_url_replace\":[\"\",\"\"]},\"toc\":{\"enable\":true,\"placement\":\"right\",\"headingSelector\":\"h1,h2,h3,h4,h5,h6\",\"collapseDepth\":0},\"lazyload\":{\"enable\":true,\"loading_img\":\"/img/loading.gif\",\"onlypost\":false,\"offset_factor\":2},\"web_analytics\":{\"enable\":false,\"follow_dnt\":true,\"baidu\":null,\"google\":{\"measurement_id\":null},\"tencent\":{\"sid\":null,\"cid\":null},\"leancloud\":{\"app_id\":null,\"app_key\":null,\"server_url\":null,\"path\":\"window.location.pathname\",\"ignore_local\":false},\"umami\":{\"src\":null,\"website_id\":null,\"domains\":null,\"start_time\":\"2024-01-01T00:00:00.000Z\",\"token\":null,\"api_server\":null}},\"search_path\":\"/local-search.xml\",\"include_content_in_search\":true};\n\n    if (CONFIG.web_analytics.follow_dnt) {\n      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;\n      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));\n    }\n  \n  \n  \n  \n\n\n  \n\n\n\n\n  \n\n  \n    \n\n\n  \n  \n    \n      玫幽倩\n    \n\n    \n      \n    \n\n    \n    \n      \n        \n          \n          \n          \n          \n            \n              \n                \n                首页",
+      "Deployment:\n类型: 工作负载资源 (Workload Resource)",
+      "作用: 定义了应用程序的期望状态，负责管理和更新Pod（例如，创建、更新、扩缩容Pod）。它确保在任何给定时间都有指定数量的Pod在运行。"
+    ],
+    "key_findings": [
+      "kubectl get namespaces -Akubectl get pods -Akubectl get services -A",
+      "kubectl describe pods nfs-client-provisioner-79cc77f98-87xts -n nfs-storageclass",
+      "kubectl apply -f mysql-c.yamlkubectl apply -f mysql-d.yamlkubectl apply -f mysql57-pvc.yamlkubectl apply -f mysql80-pvc.yamlkubectl apply -f mysql-services.yaml",
+      "nfs-client",
+      "kubectl delete pod mysql80-5fc9f7b6f7-9lj97 -n default"
+    ],
+    "flags": [],
+    "tags": [
+      "磁盘取证",
+      "火眼",
+      "sleuthkit",
+      "CTF",
+      "Writeup"
+    ],
+    "content_hash": "5c04c3feb7d12f47",
+    "source_url": "https://mei-you-qian.github.io/2025/11/05/2025数证杯初赛/index"
+  },
+  {
+    "case_id": "美亚杯_2024_dir_2024美亚杯个人赛",
+    "title": "2024美亚杯个人赛",
+    "category": "电子取证",
+    "competition": "美亚杯",
+    "year": 2024,
+    "difficulty": "medium",
+    "tools_used": [],
+    "techniques": [],
+    "description": "包含 160 张截图的取证案例",
+    "solution_steps": [],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "电子取证",
+      "美亚杯"
+    ],
+    "content_hash": "efb6724296bf8f05",
+    "source_url": ""
+  },
+  {
+    "case_id": "美亚杯_2025_dir_2025美亚杯-资格赛",
+    "title": "2025美亚杯-资格赛",
+    "category": "电子取证",
+    "competition": "美亚杯",
+    "year": 2025,
+    "difficulty": "medium",
+    "tools_used": [],
+    "techniques": [],
+    "description": "包含 192 张截图的取证案例",
+    "solution_steps": [],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "电子取证",
+      "美亚杯"
+    ],
+    "content_hash": "b018e25ded20eac0",
+    "source_url": ""
+  }
+]

