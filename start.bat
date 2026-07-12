@@ -1,52 +1,39 @@
 @echo off
 chcp 65001 >nul
-echo ========================================
-echo   基于大模型的自动化取证平台
-echo ========================================
-echo.
-echo 请选择启动模式:
-echo.
-echo [1] Web UI 界面 (推荐)
-echo [2] API 服务
-echo [3] 同时启动 Web UI 和 API
-echo [0] 退出
-echo.
-set /p choice=请输入选项: 
+title 取证AI平台 - 启动
+cd /d "%~dp0"
 
-if "%choice%"=="1" goto webui
-if "%choice%"=="2" goto api
-if "%choice%"=="3" goto both
-if "%choice%"=="0" goto end
-echo 无效选项，请重新运行
-pause
-exit /b 1
-
-:webui
+echo ========================================
+echo   取证AI平台
+echo ========================================
 echo.
-echo 启动 Web UI...
+
+:: 检查Python
+where python >nul 2>&1
+if %errorLevel% neq 0 (
+    echo [错误] 未找到Python
+    echo 请先安装Python 3.8+
+    pause
+    exit /b 1
+)
+
+:: 检查配置文件
+if not exist "config\llm_config.json" (
+    echo [提示] 未找到API配置文件
+    echo 正在创建默认配置...
+    if exist "config\llm_config.example.json" (
+        copy "config\llm_config.example.json" "config\llm_config.json" >nul
+        echo 已创建 config\llm_config.json
+        echo 请编辑此文件填入API密钥
+        echo.
+    )
+)
+
+:: 启动Web界面
+echo 正在启动Web界面...
 echo 访问地址: http://localhost:7860
+echo 按 Ctrl+C 停止服务
 echo.
 python -m web.app
-goto end
 
-:api
-echo.
-echo 启动 API 服务...
-echo API文档: http://localhost:8000/docs
-echo.
-python -m api.main
-goto end
-
-:both
-echo.
-echo 启动 Web UI 和 API 服务...
-echo Web UI: http://localhost:7860
-echo API文档: http://localhost:8000
-echo.
-start "API Service" python -m api.main
-timeout /t 3 >nul
-python -m web.app
-goto end
-
-:end
 pause
