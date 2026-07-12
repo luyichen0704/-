@@ -119,6 +119,33 @@ class Installer:
             self.log_msg("Starting installation...")
             self.log_msg(f"Path: {path}")
             
+            # Check Git
+            self.log_msg("\nChecking Git...")
+            git_installed = shutil.which("git") is not None
+            
+            if not git_installed:
+                self.log_msg("WARNING: Git not installed!")
+                self.log_msg("Please download project manually:")
+                self.log_msg("1. Go to: https://github.com/luyichen0704/forensic-ai-platform")
+                self.log_msg("2. Click Code -> Download ZIP")
+                self.log_msg(f"3. Extract to: {path}")
+                self.log_msg("")
+                self.log_msg("Or install Git from: https://git-scm.com/downloads")
+                
+                if not messagebox.askyesno("Git Not Found", 
+                    "Git is not installed.\n\n"
+                    "Do you want to:\n"
+                    "1. Open Git download page (install Git first)\n"
+                    "2. Or download ZIP manually from GitHub\n\n"
+                    "Open Git download page?"):
+                    return
+                
+                import webbrowser
+                webbrowser.open("https://git-scm.com/downloads")
+                return
+            
+            self.log_msg("  Git OK")
+            
             # Create dir
             self.update_ui("Creating directory...", 10)
             self.log_msg("\n[1/4] Creating directory...")
@@ -135,7 +162,7 @@ class Installer:
                     r = subprocess.run(["git", "clone", "https://github.com/luyichen0704/forensic-ai-platform.git", "."],
                                       capture_output=True, cwd=path)
                     if r.returncode != 0:
-                        raise Exception("Git failed - download manually from GitHub")
+                        raise Exception("Git clone failed")
                 self.log_msg("  OK")
             
             # Python deps
