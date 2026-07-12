@@ -3617,5 +3617,808 @@
       "Reverse"
     ],
     "content_hash": "9dc08dc6ef0fb534"
+  },
+  {
+    "case_id": "9447-ctf-2014_2014_0ee1b95f9ffe1a20",
+    "title": "9447 CTF 2014: europe01",
+    "category": "Web",
+    "competition": "9447-ctf-2014",
+    "year": 2014,
+    "difficulty": "easy",
+    "tools_used": [],
+    "techniques": [],
+    "description": "**Category:** Exploitation **Points:** 200 **Solves:** 43 **Description:** > My friend Eve made this program for me to broadcast a key to my friends. However I鈥檓 pretty sure she put in a vulnerability. Can you find it?",
+    "solution_steps": [],
+    "key_findings": [
+      "```bash\n> $ ls\n> europe flag01 flag02 passwd salt\n> ```"
+    ],
+    "flags": [],
+    "tags": [
+      "9447-ctf-2014",
+      "Web"
+    ],
+    "content_hash": "0ee1b95f9ffe1a20"
+  },
+  {
+    "case_id": "asis-ctf-quals-2014_2014_50f738fdcc0dafea",
+    "title": "ASIS Cyber Security Contest Quals 2014: Censored array",
+    "category": "Forensics",
+    "competition": "asis-ctf-quals-2014",
+    "year": 2014,
+    "difficulty": "easy",
+    "tools_used": [],
+    "techniques": [],
+    "description": "**Category:** Crypto, PPC **Points:** 1 **Description:** > ```bash > nc 87.107.123.4 9301 > ``` > > Hint: ACL Forensic (TODO) * none yet",
+    "solution_steps": [],
+    "key_findings": [
+      "```bash\n> nc 87.107.123.4 9301\n> ```"
+    ],
+    "flags": [],
+    "tags": [
+      "asis-ctf-quals-2014",
+      "Forensics"
+    ],
+    "content_hash": "50f738fdcc0dafea"
+  },
+  {
+    "case_id": "asis-ctf-quals-2014_2014_36a3d3e1c50ec1c8",
+    "title": "ASIS Cyber Security Contest Quals 2014: Forensic 2",
+    "category": "Forensics",
+    "competition": "asis-ctf-quals-2014",
+    "year": 2014,
+    "difficulty": "easy",
+    "tools_used": [],
+    "techniques": [],
+    "description": "**Category:** Forensic **Points:** 300 **Description:** > [file](https://mega.co.nz/#!fk4iEJRb!hrGOlhPVyaTsskucvhCTBYEIIPIEcBXQqibGbbYPAGk) (`forensic_300_4a6f16218336d046acff450dd5570c02`; 317.4 MB) (TODO)",
+    "solution_steps": [
+      "[Indonesian](http://blog.rentjong.net/2014/05/asis"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "asis-ctf-quals-2014",
+      "Forensics"
+    ],
+    "content_hash": "36a3d3e1c50ec1c8"
+  },
+  {
+    "case_id": "asis-ctf-quals-2014_2014_ef1343107145df05",
+    "title": "ASIS Cyber Security Contest Quals 2014: Image",
+    "category": "Web",
+    "competition": "asis-ctf-quals-2014",
+    "year": 2014,
+    "difficulty": "medium",
+    "tools_used": [
+      "sleuthkit"
+    ],
+    "techniques": [
+      "文件恢复"
+    ],
+    "description": "**Category:** Trivia **Points:** 50 **Description:** > Download the attached file and find the flag > [file](joy_50_25b927e48a23a4b41f215303ca988a01) > No need to calculate MD5 or appending `ASIS_`. We are given the file `joy_50_25b927e48a23a4b41f215303ca988a01` without any extensions so the first t",
+    "solution_steps": [
+      "<http://nickthefrost.com/2014/05/10/asis",
+      "[Indonesian](http://blog.rentjong.net/2014/05/asis",
+      "<http://quangntenemy.blogspot.de/2014/05/asis",
+      "[Persian](http://xploit.ir/asis",
+      "<http://apelord.net/posts/asis"
+    ],
+    "key_findings": [
+      "```bash\n$ file joy_50_25b927e48a23a4b41f215303ca988a01\njoy_50_25b927e48a23a4b41f215303ca988a01: xz compressed data\n```",
+      "```bash\n$ tar -xv --xz -f joy_50_25b927e48a23a4b41f215303ca988a01\n1\nx joy_a653520127e5147e0f9cc489ea9d1cf6\n```",
+      "```\njoy_a653520127e5147e0f9cc489ea9d1cf6: iNES ROM dump, 1x16k PRG, 1x8k CHR, [Horiz.]\n```"
+    ],
+    "flags": [],
+    "tags": [
+      "sleuthkit",
+      "asis-ctf-quals-2014",
+      "Web"
+    ],
+    "content_hash": "ef1343107145df05"
+  },
+  {
+    "case_id": "asis-ctf-quals-2014_2014_04c19db2b8962c11",
+    "title": "ASIS Cyber Security Contest Quals 2014: Malware",
+    "category": "Reverse",
+    "competition": "asis-ctf-quals-2014",
+    "year": 2014,
+    "difficulty": "easy",
+    "tools_used": [],
+    "techniques": [],
+    "description": "**Category:** Reverse, PPC **Points:** 400 **Description:** > after running this malware, our files changed. find the flag. > \"Caution\": The attached file is a malware. DO NOT run it. > [file](re_400_a60dcaddf7430953d053d9fec5b0c932)",
+    "solution_steps": [],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "Reverse",
+      "asis-ctf-quals-2014"
+    ],
+    "content_hash": "04c19db2b8962c11"
+  },
+  {
+    "case_id": "confidence-ds-ctf-teaser_2014_6d89b5299f081544",
+    "title": "CONFidence DS CTF Teaser: Reverse300",
+    "category": "Reverse",
+    "competition": "confidence-ds-ctf-teaser",
+    "year": 2014,
+    "difficulty": "easy",
+    "tools_used": [],
+    "techniques": [],
+    "description": "**Category:** Reverse-engineering **Points:** 300 **Description:** > Run this [binary](re300) with the same username you are logged in with. Once you find a valid password and token, enter it below: > > Username: `[_]`",
+    "solution_steps": [],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "Reverse",
+      "confidence-ds-ctf-teaser"
+    ],
+    "content_hash": "6d89b5299f081544"
+  },
+  {
+    "case_id": "csaw-ctf-2014_2014_40e9227fe84b05b5",
+    "title": "CSAW CTF 2014: dumpster diving",
+    "category": "Forensics",
+    "competition": "csaw-ctf-2014",
+    "year": 2014,
+    "difficulty": "easy",
+    "tools_used": [
+      "strings"
+    ],
+    "techniques": [],
+    "description": "**Category:** Forensics **Points:** 100 **Description:** > dumpsters are cool, but cores are cooler > > Written by marc > > [firefox.mem.zip](firefox.mem.zip) ```bash $ file firefox.mem.zip firefox.mem.zip: Zip archive data, at least v2.0 to extract",
+    "solution_steps": [
+      "<http://www.mrt",
+      "<https://hackucf.org/blog/csaw",
+      "<http://shankaraman.wordpress.com/2014/09/22/csaw",
+      "<http://bt3gl.github.io/csaw",
+      "<https://ucs.fbi.h",
+      "<http://www.incertia.net/blog/csaw"
+    ],
+    "key_findings": [
+      "```bash\n$ file firefox.mem.zip\nfirefox.mem.zip: Zip archive data, at least v2.0 to extract\n\n$ unzip firefox.mem.zip\nArchive:  firefox.mem.zip\n  inflating: firefox.mem\n\n$ file firefox.mem\nfirefox.mem: "
+    ],
+    "flags": [
+      "flag{'\nZZZZZZZZflag{cd69b4957f06cd818d7bf3d61980e291}"
+    ],
+    "tags": [
+      "strings",
+      "csaw-ctf-2014",
+      "Forensics"
+    ],
+    "content_hash": "40e9227fe84b05b5"
+  },
+  {
+    "case_id": "defkthon-ctf_2014_c54d126a5e68120f",
+    "title": "DEFKTHON CTF: Crypto 200",
+    "category": "Crypto",
+    "competition": "defkthon-ctf",
+    "year": 2014,
+    "difficulty": "medium",
+    "tools_used": [
+      "sleuthkit"
+    ],
+    "techniques": [],
+    "description": "**Description:** > [RSA!!](encr02.7z) The provided [`encr02.7z`](encr02.7z) archive contains two files: `enc` and `rsa`. The former is (from its name) clearly an encrypted message. The filename and contents of the latter hint that the message is encrypted with RSA. The `rsa` file is just a JSON file",
+    "solution_steps": [],
+    "key_findings": [
+      "``` json\n{\"hmacKey\": {\"hmacKeyString\": \"L_YKADwsSRdPYYioRV-xjn0cWHCKnBIc1j8EmJzRrJY\", \"size\": 256}, \"aesKeyString\": \"zzqP2s4p8XWuFLhXbhLxoQ\", \"mode\": \"CBC\", \"size\": 128}\n```",
+      "``` python\nwith open('rsa', 'r') as f:\n    rsa = f.read()\nwith open('enc', 'rb') as f:\n    enc = f.read()\nimport keyczar.keys\nkey = keyczar.keys.RsaPrivateKey.Read(rsa)\nrsaDecrypted = key.Decrypt(enc["
+    ],
+    "flags": [],
+    "tags": [
+      "sleuthkit",
+      "Crypto",
+      "defkthon-ctf"
+    ],
+    "content_hash": "c54d126a5e68120f"
+  },
+  {
+    "case_id": "defkthon-ctf_2014_ceaa7082f8b9b3fa",
+    "title": "DEFKTHON CTF: Crypto 300",
+    "category": "Crypto",
+    "competition": "defkthon-ctf",
+    "year": 2014,
+    "difficulty": "easy",
+    "tools_used": [],
+    "techniques": [],
+    "description": "**Description:** > The key to finding the truth lies with my namesake. [Download](encr03.jpg) This is a photo of Emma Stone. (TODO) * none yet",
+    "solution_steps": [],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "Crypto",
+      "defkthon-ctf"
+    ],
+    "content_hash": "ceaa7082f8b9b3fa"
+  },
+  {
+    "case_id": "defkthon-ctf_2014_bd83a43f6ed4d2f6",
+    "title": "DEFKTHON CTF: Crypto 400",
+    "category": "Crypto",
+    "competition": "defkthon-ctf",
+    "year": 2014,
+    "difficulty": "easy",
+    "tools_used": [],
+    "techniques": [],
+    "description": "**Description:** > Alice and Bob went a long way in crypto. They designed a super secure crypto system to encrypt their messages. We managed to steal the source and some other information. Find the FLAG!",
+    "solution_steps": [
+      "<http://blog.0xdeffbeef.com/2014/03/defkthon"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "Crypto",
+      "defkthon-ctf"
+    ],
+    "content_hash": "bd83a43f6ed4d2f6"
+  },
+  {
+    "case_id": "hack-lu-ctf-2014_2014_178dfb725a46530b",
+    "title": "Hack.lu CTF 2014: Cryptochief",
+    "category": "Crypto",
+    "competition": "hack-lu-ctf-2014",
+    "year": 2014,
+    "difficulty": "easy",
+    "tools_used": [],
+    "techniques": [],
+    "description": "**Category:** Reversing **Points:** 400 **Author:** chief **Description:** > Lucky, > everybody knows you can shoot faster than your shadow, but can you also reverse and break this crypto before your shadow finds out the secret? To give you some kind of challenge, I encrypted the file with the 256 b",
+    "solution_steps": [
+      "[Challenge source](cryptochief",
+      "french: <https://securimag.org/wp/challenges/hack",
+      "chinese: <https://www.zybuluo.com/romangol/note/40559>"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "Crypto",
+      "hack-lu-ctf-2014"
+    ],
+    "content_hash": "178dfb725a46530b"
+  },
+  {
+    "case_id": "ncn-ctf-quals-2014_2014_e84b7100b84e28ec",
+    "title": "NoConName 2014 Quals: eXPLicit",
+    "category": "Crypto",
+    "competition": "ncn-ctf-quals-2014",
+    "year": 2014,
+    "difficulty": "easy",
+    "tools_used": [],
+    "techniques": [],
+    "description": "**Category:** Crypto **Points:** 100 **Description:** The flag is right there, in front of your eyes. (TODO) Flag: `ncn\\_deadbeafcafebadbabefeeddefacedbedfadedec` * <https://ctfcrew.org/writeup/66> * <http://givemesecurity.info/2014/09/15/no-con-name-ctf-quals-2014-cryptonite-writeup/>",
+    "solution_steps": [
+      "<https://ctfcrew.org/writeup/66>",
+      "<http://www.incertia.net/blog/noc0nname"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "ncn-ctf-quals-2014",
+      "Crypto"
+    ],
+    "content_hash": "e84b7100b84e28ec"
+  },
+  {
+    "case_id": "ncn-ctf-quals-2014_2014_a8811efd050db84d",
+    "title": "NoConName 2014 Quals: STEGOsaurus",
+    "category": "Web",
+    "competition": "ncn-ctf-quals-2014",
+    "year": 2014,
+    "difficulty": "easy",
+    "tools_used": [],
+    "techniques": [],
+    "description": "**Category:** Steganography **Points:** 300 **Description:** Can you hear it? Sounds like a flag... Note: The flag only contains lowercase characters. * <http://givemesecurity.info/2014/09/14/stegosaurus-writeup/>",
+    "solution_steps": [
+      "<http://givemesecurity.info/2014/09/14/stegosaurus",
+      "<http://www.mrt",
+      "<http://eindbazen.net/2014/09/no",
+      "<http://www.incertia.net/blog/noc0nname"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "ncn-ctf-quals-2014",
+      "Web"
+    ],
+    "content_hash": "a8811efd050db84d"
+  },
+  {
+    "case_id": "nuit-du-hack-ctf-qualifications_2014_aa249b9dad28d234",
+    "title": "Nuit du Hack CTF Qualifications: Windows Forensics",
+    "category": "Forensics",
+    "competition": "nuit-du-hack-ctf-qualifications",
+    "year": 2014,
+    "difficulty": "easy",
+    "tools_used": [
+      "sleuthkit",
+      "john"
+    ],
+    "techniques": [
+      "文件恢复"
+    ],
+    "description": "**Category:** Forensics **Points:** 200 **Description:** > On a client computer of a merchandise transport company, an employee realized that a command prompt containing commands appeared on the screen. The company contacted NianSec, a computer security company to assess the risk. John, trainee, was",
+    "solution_steps": [
+      "<http://sigint.ru/writeups/2014/04/07/nuit"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "nuit-du-hack-ctf-qualifications",
+      "sleuthkit",
+      "john",
+      "Forensics"
+    ],
+    "content_hash": "aa249b9dad28d234"
+  },
+  {
+    "case_id": "olympic-ctf-2014_2014_a56d65116fa7ba1c",
+    "title": "Olympic CTF 2014: Welcome to Forensics",
+    "category": "Forensics",
+    "competition": "olympic-ctf-2014",
+    "year": 2014,
+    "difficulty": "easy",
+    "tools_used": [],
+    "techniques": [],
+    "description": "**Category:** Freestyle (Misc.) **Points:** 500 **Author:** vos **Description:** > One of our admins, before his agonizing death by being squished by an elephpant, changed the passwords on all our servers! Postmortem autopsy found in his stomach a usb pen drive with sole file: [`WTF.BIN`](WTF.BIN), ",
+    "solution_steps": [
+      "<http://blog.dragonsector.pl/2014/02/olympic",
+      "<http://hardc0de.ctf.su/archives/102>"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "olympic-ctf-2014",
+      "Forensics"
+    ],
+    "content_hash": "a56d65116fa7ba1c"
+  },
+  {
+    "case_id": "phdays-iv-quals_2014_42755ee30ef79c02",
+    "title": "PHDays Quals CTF 2014: MyFavoriteMalware",
+    "category": "Forensics",
+    "competition": "phdays-iv-quals",
+    "year": 2014,
+    "difficulty": "easy",
+    "tools_used": [],
+    "techniques": [],
+    "description": "**Category:** Reverse **Points:** 4000 **Description:** > We have found an unknown malware [sample](myfavoritemalware.zip.9e5dc16a452e006105c00bd629429f61) in our corporate network. It could be related to Detcelfer incident. You need to make a research.",
+    "solution_steps": [
+      "[Russian](http://nightsite.info/blog/12936"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "phdays-iv-quals",
+      "Forensics"
+    ],
+    "content_hash": "42755ee30ef79c02"
+  },
+  {
+    "case_id": "qiwi-ctf-2014_2014_b66a673ce34483ac",
+    "title": "Qiwi CTF 2014: cryptod",
+    "category": "Crypto",
+    "competition": "qiwi-ctf-2014",
+    "year": 2014,
+    "difficulty": "easy",
+    "tools_used": [],
+    "techniques": [],
+    "description": "**Category:** Pwn **Points:** 500 **Author:** snk **Description:** > Our engineers have deployed the new version of HSM. > > host qiwictf2014.ru port 3671 > > <https://qiwictf2014.ru/files/cryptod> (TODO)",
+    "solution_steps": [],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "Crypto",
+      "qiwi-ctf-2014"
+    ],
+    "content_hash": "b66a673ce34483ac"
+  },
+  {
+    "case_id": "ructf-2014-quals_2014_5f65f2c3399c1d87",
+    "title": "RuCTF 2014 Quals: Crypto 100 - [Md5 lext](https://github.com/HackerDom/ructf-2014-quals/tree/master/tasks/md5_lext)",
+    "category": "Crypto",
+    "competition": "ructf-2014-quals",
+    "year": 2014,
+    "difficulty": "easy",
+    "tools_used": [],
+    "techniques": [],
+    "description": "> Server (python27.quals.ructf.org:12337) accepts only authorized messages. > It works like this: > <pre> ------------------------------- buf = c.recv(4096) digest, msg = buf.split(\" \", 1) if (digest == md5(password+msg).hexdigest()):",
+    "solution_steps": [
+      "<http://xrekkusu.hatenablog.jp/entry/2014/03/11/214753>",
+      "[Japanese](http://d.hatena.ne.jp/kusano_k/20140310/1394471922)",
+      "<http://www.suslopas.pw/2014/03/ructf"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "ructf-2014-quals",
+      "Crypto"
+    ],
+    "content_hash": "5f65f2c3399c1d87"
+  },
+  {
+    "case_id": "ructf-2014-quals_2014_e76e7b4cd2c77825",
+    "title": "RuCTF 2014 Quals: Crypto 200 - [Mary](https://github.com/HackerDom/ructf-2014-quals/tree/master/tasks/mary)",
+    "category": "Crypto",
+    "competition": "ructf-2014-quals",
+    "year": 2014,
+    "difficulty": "easy",
+    "tools_used": [],
+    "techniques": [],
+    "description": "> Mary Queen of Scots goes chinese. We [capture](queen_mary.txt) secret message from prison where Mary Queen stands. Help us figure out what message means. * <http://h34dump.com/2014/03/ructf-quals-2014-crypto-200/>",
+    "solution_steps": [
+      "<http://h34dump.com/2014/03/ructf",
+      "<http://quangntenemy.blogspot.in/2014/03/ructf",
+      "[Japanese](http://xrekkusu.hatenablog.jp/entry/2014/03/11/224338)"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "ructf-2014-quals",
+      "Crypto"
+    ],
+    "content_hash": "e76e7b4cd2c77825"
+  },
+  {
+    "case_id": "ructf-2014-quals_2014_3cb61b96d29f46b2",
+    "title": "RuCTF 2014 Quals: Crypto 300 - [Ssl](https://github.com/HackerDom/ructf-2014-quals/tree/master/tasks/ssl)",
+    "category": "Forensics",
+    "competition": "ructf-2014-quals",
+    "year": 2014,
+    "difficulty": "easy",
+    "tools_used": [],
+    "techniques": [],
+    "description": "> Just hack [TLS](dump.pcap). > Flag format is \"RUCTF\\_.\\*\" * <http://blog.dragonsector.pl/2014/03/ructf-2014-quals-tls-crypto-300.html>",
+    "solution_steps": [
+      "<http://blog.dragonsector.pl/2014/03/ructf"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "ructf-2014-quals",
+      "Forensics"
+    ],
+    "content_hash": "3cb61b96d29f46b2"
+  },
+  {
+    "case_id": "ructf-2014-quals_2014_49fd8615d76c5d0b",
+    "title": "RuCTF 2014 Quals: Crypto 400 - [Ructfcoin](https://github.com/HackerDom/ructf-2014-quals/tree/master/tasks/ructfcoin)",
+    "category": "Crypto",
+    "competition": "ructf-2014-quals",
+    "year": 2014,
+    "difficulty": "easy",
+    "tools_used": [],
+    "techniques": [],
+    "description": "> Check out our new cryptocurrency <https://github.com/HackerDom/bitcoin> > Mine and send us 10000 coins to __address__ address and we'll score you points. You can use ANYTHING as an answer. For example, hash of money transfer transaction.",
+    "solution_steps": [],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "ructf-2014-quals",
+      "Crypto"
+    ],
+    "content_hash": "49fd8615d76c5d0b"
+  },
+  {
+    "case_id": "ructf-2014-quals_2014_418ec5a7b338c2a9",
+    "title": "RuCTF 2014 Quals: Crypto 500 - [Related](https://github.com/HackerDom/ructf-2014-quals/tree/master/tasks/related)",
+    "category": "Crypto",
+    "competition": "ructf-2014-quals",
+    "year": 2014,
+    "difficulty": "easy",
+    "tools_used": [],
+    "techniques": [],
+    "description": "> Two agents, Alex and Jane, have simultaneously known very secret message and transmitted it to Center. You know following: > 1) They used RSA with [this public key](key.pub) > 2) They sent exactly the same messages except the signatures (name appended, eg. \"[message]Alex\")",
+    "solution_steps": [
+      "<https://rdot.org/forum/showthread.php?t=3053&langid=1>",
+      "<http://hxp.io/blog/1/RuCTF%20Quals%202014:%20crypto500%20%22decrypt%20message%22/>"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "ructf-2014-quals",
+      "Crypto"
+    ],
+    "content_hash": "418ec5a7b338c2a9"
+  },
+  {
+    "case_id": "ructf-2014-quals_2014_c8692db5d987a76d",
+    "title": "RuCTF 2014 Quals: Forensics 100 - [Openvpn\\_dump](https://github.com/HackerDom/ructf-2014-quals/tree/master/tasks/openvpn_dump)",
+    "category": "Forensics",
+    "competition": "ructf-2014-quals",
+    "year": 2014,
+    "difficulty": "easy",
+    "tools_used": [],
+    "techniques": [],
+    "description": "> We intercepted [configs and dump](openvpn.5df2789228a89cdcd1ff58e3e650df0f.7z). What were they hide on [http://10.100.0.1/](http://10.100.0.1/)? (TODO) * <http://h34dump.com/2014/03/ructf-quals-2014-forensics-100/>",
+    "solution_steps": [
+      "<http://h34dump.com/2014/03/ructf",
+      "<http://peterpen",
+      "<http://ctfwriteups.blogspot.in/2014/03/ructf",
+      "<https://ctfcrew.org/writeup/49>"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "ructf-2014-quals",
+      "Forensics"
+    ],
+    "content_hash": "c8692db5d987a76d"
+  },
+  {
+    "case_id": "ructf-2014-quals_2014_4d8f39d7ac26173a",
+    "title": "RuCTF 2014 Quals: Forensics 200 - [Nosql](https://github.com/HackerDom/ructf-2014-quals/tree/master/tasks/nosql)",
+    "category": "Forensics",
+    "competition": "ructf-2014-quals",
+    "year": 2014,
+    "difficulty": "easy",
+    "tools_used": [],
+    "techniques": [],
+    "description": "> We have some [corrupted files](nosql.7a213eefd016dadea7e9d793271ad504.zip). Flag format is \"RUCTF\\_.\\*\" * <http://tasteless.eu/2014/03/ructf-quals-2014-for200-and-admin200-writeup/> * <http://h34dump.com/2014/03/ructf-quals-2014-forensics-200/>",
+    "solution_steps": [
+      "<http://tasteless.eu/2014/03/ructf",
+      "<http://h34dump.com/2014/03/ructf",
+      "[Russian](http://akaminsky.net/ructf"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "ructf-2014-quals",
+      "Forensics"
+    ],
+    "content_hash": "4d8f39d7ac26173a"
+  },
+  {
+    "case_id": "ructf-2014-quals_2014_80a46358a00eeb2b",
+    "title": "RuCTF 2014 Quals: Forensics 300 - [Random](https://github.com/HackerDom/ructf-2014-quals/tree/master/tasks/random)",
+    "category": "Forensics",
+    "competition": "ructf-2014-quals",
+    "year": 2014,
+    "difficulty": "easy",
+    "tools_used": [
+      "sleuthkit"
+    ],
+    "techniques": [],
+    "description": "> A friend of mine developed a [special application](main.cpp) to store sensitive information. He was very confident to gave me his [secret](secret), claiming it's safe. I'm not that sure. Flag format is \"RUCTF\\_.\\*\".",
+    "solution_steps": [],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "ructf-2014-quals",
+      "sleuthkit",
+      "Forensics"
+    ],
+    "content_hash": "80a46358a00eeb2b"
+  },
+  {
+    "case_id": "ructf-2014-quals_2014_b6baed89c244991f",
+    "title": "RuCTF 2014 Quals: Forensics 400 - [Virtual](https://github.com/HackerDom/ructf-2014-quals/tree/master/tasks/virtual)",
+    "category": "Forensics",
+    "competition": "ructf-2014-quals",
+    "year": 2014,
+    "difficulty": "easy",
+    "tools_used": [],
+    "techniques": [],
+    "description": "> The answer is [here.](answer.ova) > Flag format is \"RUCTF\\_.\\*\". * <http://h34dump.com/2014/03/ructf-quals-2014-forensics-400/> * <http://peterpen-ctf.net/?p=899> * <http://lights-out-ctf.ghost.io/ructf-2014-quals-forensics-400-so-close/>",
+    "solution_steps": [
+      "<http://h34dump.com/2014/03/ructf",
+      "<http://peterpen",
+      "<http://lights"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "ructf-2014-quals",
+      "Forensics"
+    ],
+    "content_hash": "b6baed89c244991f"
+  },
+  {
+    "case_id": "ructf-2014-quals_2014_a5c1b2e1090454e9",
+    "title": "RuCTF 2014 Quals: Reverse 10 - [Harm](https://github.com/HackerDom/ructf-2014-quals/tree/master/tasks/harm)",
+    "category": "Web",
+    "competition": "ructf-2014-quals",
+    "year": 2014,
+    "difficulty": "easy",
+    "tools_used": [],
+    "techniques": [],
+    "description": "> It sure should be a no problem for you to find an md5 digest of ragger.hsc file from harm0597 discmag. * <http://h34dump.com/2014/03/ructf-quals-2014-reverse-10/>",
+    "solution_steps": [
+      "<http://h34dump.com/2014/03/ructf"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "ructf-2014-quals",
+      "Web"
+    ],
+    "content_hash": "a5c1b2e1090454e9"
+  },
+  {
+    "case_id": "ructf-2014-quals_2014_b9d9a4deb7a884c2",
+    "title": "RuCTF 2014 Quals: Reverse 100 - [Backdoor Crypto](https://github.com/HackerDom/ructf-2014-quals/tree/master/tasks/backdoor_crypto)",
+    "category": "Crypto",
+    "competition": "ructf-2014-quals",
+    "year": 2014,
+    "difficulty": "easy",
+    "tools_used": [],
+    "techniques": [],
+    "description": "> Something wrong with [this](main.asm) library source file. Decrypt our message about Hackerdom please (we used ECB for encrypt): > de540a2994f1ee070053ee470b83b3230b59dc0fd4916dc85ca060cb1ab345cc40425206ca78be0cc0d5b1f8afc241f41c95784d178c20eb7e8d502c81e54f891d1280206150eda0a3a2eeea6fd3771d2d93df5",
+    "solution_steps": [],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "ructf-2014-quals",
+      "Crypto"
+    ],
+    "content_hash": "b9d9a4deb7a884c2"
+  },
+  {
+    "case_id": "ructf-2014-quals_2014_1ff897d7196bba7f",
+    "title": "RuCTF 2014 Quals: Reverse 200 - [No Harm](https://github.com/HackerDom/ructf-2014-quals/tree/master/tasks/no_harm)",
+    "category": "Web",
+    "competition": "ructf-2014-quals",
+    "year": 2014,
+    "difficulty": "easy",
+    "tools_used": [],
+    "techniques": [],
+    "description": "> ... but it may be a little bit harder to find an md5 digest of the biggest file from harm.dat of harm0597 discmag. (TODO) * <https://ctfcrew.org/writeup/52>",
+    "solution_steps": [
+      "<https://ctfcrew.org/writeup/52>"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "ructf-2014-quals",
+      "Web"
+    ],
+    "content_hash": "1ff897d7196bba7f"
+  },
+  {
+    "case_id": "ructf-2014-quals_2014_87ad7862c1997ab1",
+    "title": "RuCTF 2014 Quals: Reverse 300 - [Erl](https://github.com/HackerDom/ructf-2014-quals/tree/master/tasks/erl)",
+    "category": "Web",
+    "competition": "ructf-2014-quals",
+    "year": 2014,
+    "difficulty": "easy",
+    "tools_used": [],
+    "techniques": [],
+    "description": "> [Crack me](r.beam) > Flag format is \"RUCTF\\_.\\*) * [Japanese](http://d.hatena.ne.jp/kusano_k/20140310)",
+    "solution_steps": [
+      "[Japanese](http://d.hatena.ne.jp/kusano_k/20140310)"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "ructf-2014-quals",
+      "Web"
+    ],
+    "content_hash": "87ad7862c1997ab1"
+  },
+  {
+    "case_id": "ructf-2014-quals_2014_c04bb15ab770af68",
+    "title": "RuCTF 2014 Quals: Reverse 400 - [Keyboard Interrupter](https://github.com/HackerDom/ructf-2014-quals/tree/master/tasks/keyboard_interrupter)",
+    "category": "Web",
+    "competition": "ructf-2014-quals",
+    "year": 2014,
+    "difficulty": "easy",
+    "tools_used": [],
+    "techniques": [],
+    "description": "> [Guess pin code](main.45c1ec963414c50855bcb1172dd808d2). Length of pin code is not more than 12 chars. * <https://ctfcrew.org/writeup/53> * [Japanese](http://d.hatena.ne.jp/kusano_k/20140310)",
+    "solution_steps": [
+      "<https://ctfcrew.org/writeup/53>"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "ructf-2014-quals",
+      "Web"
+    ],
+    "content_hash": "c04bb15ab770af68"
+  },
+  {
+    "case_id": "ructf-2014-quals_2014_14dd1d2472a7055d",
+    "title": "RuCTF 2014 Quals: Reverse 500 - [Arcfour](https://github.com/HackerDom/ructf-2014-quals/tree/master/tasks/arcfour)",
+    "category": "Web",
+    "competition": "ructf-2014-quals",
+    "year": 2014,
+    "difficulty": "easy",
+    "tools_used": [],
+    "techniques": [],
+    "description": "> [Crack me](arcfour.zip) please. > Flag format is \"RUCTF\\_.\\*\" (TODO) * <http://piggybird.net/2014/03/ructf-2014-quals-reverse-500-arcfour/> * <https://ctfcrew.org/writeup/47>",
+    "solution_steps": [
+      "<http://piggybird.net/2014/03/ructf",
+      "<https://ctfcrew.org/writeup/47>"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "ructf-2014-quals",
+      "Web"
+    ],
+    "content_hash": "14dd1d2472a7055d"
+  },
+  {
+    "case_id": "su-ctf-quals-2014_2014_3127d879d1a2ffc3",
+    "title": "Sharif University Quals CTF 2014: Capture The Spoon",
+    "category": "Web",
+    "competition": "su-ctf-quals-2014",
+    "year": 2014,
+    "difficulty": "easy",
+    "tools_used": [],
+    "techniques": [],
+    "description": "**Category:** Web, Real **Points:** 250 **Solves** 4 **Description:** > Find The Flag! > <http://ctf.sharif.edu:31455> (TODO) * <http://ctf.sharif.edu/2014/quals/su-ctf/write-ups/29/>",
+    "solution_steps": [
+      "<http://ctf.sharif.edu/2014/quals/su"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "su-ctf-quals-2014",
+      "Web"
+    ],
+    "content_hash": "3127d879d1a2ffc3"
+  },
+  {
+    "case_id": "su-ctf-quals-2014_2014_19f6b081d9f2429a",
+    "title": "Sharif University Quals CTF 2014: Network Traffic",
+    "category": "Forensics",
+    "competition": "su-ctf-quals-2014",
+    "year": 2014,
+    "difficulty": "easy",
+    "tools_used": [],
+    "techniques": [],
+    "description": "**Category:** Steganography **Points:** 100 **Solves** 58 **Description:** > Download the file and find the flag > > [Download](traffic.pcap) (TODO) * <http://ctf.sharif.edu/2014/quals/su-ctf/write-ups/22/>",
+    "solution_steps": [
+      "<http://ctf.sharif.edu/2014/quals/su"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "su-ctf-quals-2014",
+      "Forensics"
+    ],
+    "content_hash": "19f6b081d9f2429a"
+  },
+  {
+    "case_id": "su-ctf-quals-2014_2014_c34170ffcd3a1ad8",
+    "title": "Sharif University Quals CTF 2014: Reverse Me",
+    "category": "Web",
+    "competition": "su-ctf-quals-2014",
+    "year": 2014,
+    "difficulty": "easy",
+    "tools_used": [],
+    "techniques": [],
+    "description": "**Category:** Reverse **Points:** 200 **Solves** 89 **Description:** > Reverse me and find a valid serial number! > > flag : [A valid serial number] > > [Download](ReverseMe.exe) (TODO) * <http://ctf.sharif.edu/2014/quals/su-ctf/write-ups/27/>",
+    "solution_steps": [
+      "<http://ctf.sharif.edu/2014/quals/su"
+    ],
+    "key_findings": [],
+    "flags": [],
+    "tags": [
+      "su-ctf-quals-2014",
+      "Web"
+    ],
+    "content_hash": "c34170ffcd3a1ad8"
+  },
+  {
+    "case_id": "su-ctf-quals-2014_2014_4d5b7404c8d236e3",
+    "title": "Sharif University Quals CTF 2014: Sudoku Image Encryption",
+    "category": "Crypto",
+    "competition": "su-ctf-quals-2014",
+    "year": 2014,
+    "difficulty": "easy",
+    "tools_used": [],
+    "techniques": [],
+    "description": "**Category:** Cryptography **Points:** 40 **Solves** 169 **Description:** > Row Major Order > > [Download](row-major-order.tar.gz) We are given two images: Noticing the title \"Row Major Order\" and having a sudoku to solve, we come to the conclusion that we have to rearrange the picture fragments (of",
+    "solution_steps": [
+      "<http://ctf.sharif.edu/2014/quals/su"
+    ],
+    "key_findings": [
+      "```\n#!/bin/bash\nmkdir in out result\nfor i in {1..9}; do\n\tfor j in {1..9}; do convert -extract 50x50+$(($((j-1))*50))+$(($((i-1))*50)) image.png in/a$i-$j.png; done\n\tCOUNT=1\n\tsed \"${i}q;d\" solution | g"
+    ],
+    "flags": [],
+    "tags": [
+      "su-ctf-quals-2014",
+      "Crypto"
+    ],
+    "content_hash": "4d5b7404c8d236e3"
   }
 ]
