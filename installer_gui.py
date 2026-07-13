@@ -278,22 +278,37 @@ class Installer:
             
             # Step 3: Install Python dependencies
             self.log_msg("\n[3/4] Installing Python dependencies...")
+            self.log_msg("  (this may take 2-5 minutes)")
+            self.log_msg("")
             
             req_file = os.path.join(p, "requirements.txt")
             if os.path.exists(req_file):
-                self.log_msg("  Running pip install...")
-                
                 # Find python
                 python_cmd = self._find_python()
-                r = subprocess.run(
-                    f'"{python_cmd}" -m pip install -r "{req_file}" -q',
-                    shell=True, capture_output=True, text=True
+                
+                # Use Popen for real-time output
+                process = subprocess.Popen(
+                    f'"{python_cmd}" -m pip install -r "{req_file}"',
+                    shell=True,
+                    stdout=subprocess.PIPE,
+                    stderr=subprocess.STDOUT,
+                    text=True
                 )
                 
-                if r.returncode == 0:
+                # Read output line by line
+                for line in process.stdout:
+                    line = line.strip()
+                    if line:
+                        self.log_msg(f"  {line}")
+                
+                process.wait()
+                
+                if process.returncode == 0:
+                    self.log_msg("")
                     self.log_msg("  ✓ Dependencies installed")
                 else:
-                    self.log_msg(f"  ⚠ Some failed: {r.stderr[:150]}")
+                    self.log_msg("")
+                    self.log_msg("  ⚠ Some dependencies may have failed")
                     self.log_msg("  Continuing anyway...")
             else:
                 self.log_msg("  ⚠ requirements.txt not found, skipping")
