@@ -448,7 +448,14 @@ class ForensicWebUI:
                 }
                 self._save_config(config)
                 self.config = config
-                return "✅ 配置已保存！重启服务后生效。"
+                
+                # 重新初始化Agent
+                try:
+                    from agent.core import ForensicAgent
+                    self.agent = ForensicAgent()
+                    return "✅ 配置已保存并生效！可以测试连接了。"
+                except Exception as e:
+                    return f"✅ 配置已保存！但Agent初始化失败: {e}"
             
             save_config_btn.click(
                 save_config,
@@ -457,25 +464,45 @@ class ForensicWebUI:
             )
             
             # LLM测试
-            async def test_llm(message):
+            async def test_llm(provider, api_key, base_url, model, message):
                 """测试LLM连接"""
                 try:
+                    # 创建临时配置
+                    temp_config = {
+                        "provider": provider,
+                        "api_key": api_key,
+                        "base_url": base_url,
+                        "model": model
+                    }
+                    
+                    # 保存临时配置
+                    import json
+                    config_path = "config/llm_config.json"
+                    os.makedirs(os.path.dirname(config_path), exist_ok=True)
+                    with open(config_path, 'w', encoding='utf-8') as f:
+                        json.dump(temp_config, f, indent=2)
+                    
+                    # 测试连接
                     from agent.llm import LLMEngine
-                    llm = LLMEngine()
+                    llm = LLMEngine(config_path)
                     response = await llm.chat([
                         {"role": "user", "content": message}
                     ])
-                    return f"✅ 连接成功！\n\n**响应:** {response.content[:200]}..."
+                    return f"✅ 连接成功！\n\n**模型:** {model}\n**响应:** {response.content[:200]}..."
                 except Exception as e:
-                    return f"❌ 连接失败: {str(e)}"
+                    return f"❌ 连接失败: {str(e)}\n\n请检查:\n1. API Key是否正确\n2. Base URL是否正确\n3. 模型名称是否正确"
             
-            def run_test_llm(message):
+            def run_test_llm(provider, api_key, base_url, model, message):
                 loop = asyncio.new_event_loop()
-                result = loop.run_until_complete(test_llm(message))
+                result = loop.run_until_complete(test_llm(provider, api_key, base_url, model, message))
                 loop.close()
                 return result
             
-            test_llm_btn.click(run_test_llm, inputs=test_message, outputs=test_result)
+            test_llm_btn.click(
+                run_test_llm, 
+                inputs=[llm_provider, api_key, base_url, model_name, test_message], 
+                outputs=test_result
+            )
             
             # 证据分析
             def analyze_evidence(file, depth):
