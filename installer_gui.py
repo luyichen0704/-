@@ -227,14 +227,32 @@ class Installer:
                     self.log_msg("  ✓ Updated")
                 else:
                     self.log_msg("  Cloning from GitHub...")
-                    r = subprocess.run(
-                        ["git", "clone", "https://github.com/luyichen0704/forensic-ai-platform.git", "."],
-                        capture_output=True, text=True, cwd=p
+                    self.log_msg("  (this may take 1-3 minutes)")
+                    self.log_msg("")
+                    
+                    # Use Popen for real-time output
+                    process = subprocess.Popen(
+                        ["git", "clone", "--progress", "https://github.com/luyichen0704/forensic-ai-platform.git", "."],
+                        stdout=subprocess.PIPE,
+                        stderr=subprocess.STDOUT,
+                        text=True,
+                        cwd=p
                     )
-                    if r.returncode == 0:
-                        self.log_msg("  ✓ Downloaded")
+                    
+                    # Read output line by line
+                    for line in process.stdout:
+                        line = line.strip()
+                        if line:
+                            self.log_msg(f"  {line}")
+                    
+                    process.wait()
+                    
+                    if process.returncode == 0:
+                        self.log_msg("")
+                        self.log_msg("  ✓ Download complete!")
                     else:
-                        self.log_msg(f"  ✗ Clone failed: {r.stderr[:100]}")
+                        self.log_msg("")
+                        self.log_msg("  ✗ Clone failed")
                         self.log_msg("")
                         self.log_msg("  Please download manually:")
                         self.log_msg("  1. Go to: https://github.com/luyichen0704/forensic-ai-platform")
